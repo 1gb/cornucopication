@@ -1,0 +1,262 @@
+Ideas: Poster Art? Facebook? Twitter? Summary
+  ( Category: fruit, subcategory: apple )
+Functionality: Calendar view, maps,
+Sort by: (fruit, vegetable, meat, plant, other)
+//Need to look up later: Wenatchee Taste of the Harvest
+Do I include wine festivals?
+http://harborwineandfoodfest.com/, http://kirklanduncorked.com/, http://www.cityofenumclaw.net/410/Wine-Chocolate-Festival, https://vegofwa.org/vegfest/, http://www.nwteafestival.com/, http://www.nwchocolate.com/, http://columbiapacificheritagemuseum.org/cranberrian-fair/, http://autumnleaffestival.com/,
+http://www.sustainableballard.org/festival/
+
+{
+  "Notable Finds": [
+      "http://yummynorthwest.com/home.html",
+      "http://webmasterdesignsolutions.com/",
+      "https://festivalnet.com/festnet.html#staff"
+      ],
+    "totalCount": 26
+  }
+},
+
+{
+  "name": "Long Beach Razor Clam Festival",
+  "url": "http://longbeachrazorclamfestival.com/",
+  "city": "Long Beach, WA",
+  "dateStart": "04292017",
+  "dateEnd": "04302017",
+  "datesCertain": true,
+  "desc": "The event that helped put the Long Beach Peninsula on the map in the 1940s features free razor clam digging lessons, contests, music, an annual chowder cook off and a giant clam fry."
+},
+{
+  "name": "Bremerton Blackberry Festival",
+  "url": "http://www.blackberryfestival.org/",
+  "city": "Bremerton, WA",
+  "dateStart": "09022017",
+  "dateEnd": "09042017",
+  "datesCertain": true,
+  "desc": "The Bremerton Blackberry Festival is held each Labor Day weekend, rain or shine on the picturesque Bremerton Boardwalk. Enjoy food and drink from 130 food, arts & crafts vendors. Be sure to enjoy one or all of the growing list of blackberry treats available at the festival including blackberry “slugs,” blackberry pies, blackberry sodas, blackberry beer and blackberry wine!"
+},
+{
+  "name": "National Lentil Festival",
+  "url": "http://www.lentilfest.com/",
+  "city": "Pullman, WA",
+  "dateStart": "08182017",
+  "dateEnd": "08192017",
+  "datesCertain": true,
+  "desc": "Since its beginning in 1989, the National Lentil Festival has brought national attention to Pullman. The Palouse region of farmlands in Eastern Washington and Northern Idaho has a reputation for producing the highest quality lentils in the United States. We think that is worth celebrating."
+},
+{
+  "name": "Huckleberry Festival",
+  "url": "http://huckleberry-fest.com/",
+  "city": "Bingen, WA",
+  "dateStart": "09082017",
+  "dateEnd": "09102017",
+  "datesCertain": true,
+  "desc": "Since 1962. A celebration of the varied natural and cultural resources of the Mount Adams country. Parade, entertainment, carnival, food and craft booths and of course huckleberries."
+},
+{
+  "name": "Northwest Raspberry Festival",
+  "url": "http://lynden.org/northwest-raspberry-festival-july-14-15-2017/",
+  "city": "Lynden, WA",
+  "dateStart": "07142017",
+  "dateEnd": "07152017",
+  "datesCertain": true,
+  "desc": "Come join the Whatcom County community is celebrating and enjoying the greatest raspberry producing region in the world! We are sure you will have a “berry” good time!"
+},
+{
+  "name": "Salmon Days",
+  "url": "http://www.salmondays.org/",
+  "city": "Issaquah, WA",
+  "dateStart": "10012017",
+  "dateEnd": "10022017",
+  "datesCertain": false,
+  "desc": "The Issaquah Salmon Days is a two-day award-winning festival held in Issaquah, Washington, United States, held from 10am to 6pm on both Saturday and Sunday of the first full weekend of October."
+},
+{
+  "name": "Rhubarb Pie Festival",
+  "url": "http://rhubarbpiecapital.com/rhubarb-pie-festival/",
+  "city": "Sumner, WA",
+  "dateStart": "07162017",
+  "dateEnd": "07172017",
+  "datesCertain": false,
+  "desc": "Sumner’s Rhubarb Pie Festival is six weeks of summer fun, including music, sports, plays, classic cars and more.  Be sure to make one or all events for a fun summer in Sumner."
+},
+{
+  "name": "Apple Blossom Festival",
+  "url": "http://www.appleblossom.org/",
+  "city": "Wenatchee, WA",
+  "dateStart": "04272017",
+  "dateEnd": "05072017",
+  "datesCertain": true,
+  "desc": "The Washington State Apple Blossom Festival now draws thousands of visitors from around the world during the last weekend in April and the first weekend in May. The 11-day festival includes a Carnival, Golf Tournament, Food Fair, Entertainment, Youth Parade, Youth Day, Art 4 Kidz, Arts & Crafts Fair, and Grand Parade"
+},
+{
+  "name": "Cranberry Harvest Festival",
+  "url": "http://westportgrayland-chamber.org/pdfs/Cranberry-2017-Schedule.pdf",
+  "city": "Westport Grayland, WA",
+  "dateStart": "10142017",
+  "dateEnd": "10152017",
+  "datesCertain": true,
+  "desc": "Bog tours, Cranberry cook off, and firelight parade"
+},
+{
+  "name": "OysterFest",
+  "url": "http://www.oysterfest.org/",
+  "city": "Shelton, WA",
+  "dateStart": "10012017",
+  "dateEnd": "10022017",
+  "datesCertain": false,
+  "desc": "Oysters, wines, microbrews, live music and so much more come together for two days every year on the first weekend in October. Hosted by the Shelton Skookum Rotary Club Foundation and attended by thousands, OysterFest is home to the West Coast Oyster Shucking Championships and is Washington State’s official seafood festival. The festival also features a popular cook-off, hands-on water quality exhibits, and is itself a giant a food pavilion with nearly 100 unique items on the menu: BBQ oysters, fritters, spring rolls, garlic shrimp, fresh cider and so much more. Better yet, your culinary adventure supports about 100 local non-profit service clubs and organizations, as well as funding scholarships and local community improvement projects. What hidden pearls will you find at OysterFest?"
+},
+{
+  "name": "Bellevue Strawberry Festival",
+  "url": "http://www.bellevuestrawberryfestival.org/HOME.asp",
+  "city": "Bellevue, WA",
+  "dateStart": "06242017",
+  "dateEnd": "06252017",
+  "datesCertain": true,
+  "desc": "The festival is a revitialization of an old Bellevue tradition, dating back to when strawberry farming was one of the region's most famous activities. The festival has been held in various places around Bellevue, starting (in its recent incarnation) on Main Street in Old Bellevue, moving to the downtown park, and most recently in the Crossroads Park. We celebrate Strawberries and community on the fourth weekend of June. Entertainment, an auto show, vendors, food, and family fun are all highly visible parts of the festivities. And, you will very likely see a strawberry or two (shortcake eating contests, strawberry flats, chocolate covered strawberries, and much more)."
+},
+{
+  "name": "Pacific Northwest Mushroom Festival",
+  "url": "http://www.pnwmushroomfest.org/",
+  "city": "Lacey, WA",
+  "dateStart": "07292017",
+  "dateEnd": "07302017",
+  "datesCertain": true,
+  "desc": "Since 2008, the Pacific Northwest Mushroom Festival has been a Rotary and community event that raises money for charity. The purpose and mission of the festival is to promote the mushroom, educate consumers about the health benefits of mushrooms and to promote tourism in the Lacey, Washington and Thurston County area, all while financially supporting the many charitable activities of the Hawks Prairie Rotary club."
+},
+{
+  "name": "Dungeness Crab &amp; Seafood Festival",
+  "url": "http://www.crabfestival.org/",
+  "city": "Port Angeles, WA",
+  "dateStart": "10062017",
+  "dateEnd": "10082017",
+  "datesCertain": true,
+  "desc": "The festival celebrates not only the aquaculture, agriculture and maritime traditions of the breathtaking Olympic Peninsula, but brings food, art, music, Native American activities, and children’s events into one spectacular 3-day event for everyone!"
+},
+{
+  "name": "Brinnon ShrimpFest",
+  "url": "http://www.brinnonshrimpfest.org/",
+  "city": "Brinnon, WA",
+  "dateStart": "05272017",
+  "dateEnd": "05282017",
+  "datesCertain": true,
+  "desc": "The Brinnon ShrimpFest is a weekend festival located just north of Brinnon celebrating Hood Canal Spot Shrimp and other local seafood. It lures hungry shrimpers from all over the Northwest to fish Hood Canal’s rich waters. We feature craft booths, food booths, belt sander races, exhibits, live music, kids activities and so much more."
+},
+{
+  "name": "Chocolate On The Beach Festival",
+  "url": "http://chocolateonthebeachfestival.com/",
+  "city": "Aloha, Moclips, Copalis Beach, Copalis Crossing, Pacific Beach, and Seabrook, WA",
+  "dateStart": "02232017",
+  "dateEnd": "02262017",
+  "datesCertain": true,
+  "desc": "This is a fun, family festival offering something for every chocolate lover!  There are chocolate vendors, artists, and crafters.  You can attend a cooking class or enter your favorite recipe in the recipe contest.  How about entering an eating contest?  You can do all this and so much more.  Attendees will find chocolate that is gluten free, dairy free, vegan, organic, fair trade, raw and even healthy treats for your favorite furry friends."
+},
+{
+  "name": "Northwest Garlic Festival",
+  "url": "http://www.nwgarlicfestival.org/",
+  "city": "Ocean Park, WA",
+  "dateStart": "06172017",
+  "dateEnd": "06182017",
+  "datesCertain": true,
+  "desc": "Celebrate the passion for this exalted bulb with the faithful throngs who make their annual pilgrimage to the NW Garlic Festival which is held each June in the seaside community of Ocean Park, Washington, located on the Long Beach Peninsula. This GARLIC Olympics of Gastronomy is not held for the region's GARLIC growing ability. This Festival was born out of love of great, GARLIC laden cuisine!"
+},
+{
+  "name": "Sweet Onion Festival",
+  "url": "http://www.sweetonions.org/",
+  "city": "Walla Walla, WA",
+  "dateStart": "06172017",
+  "dateEnd": "06182017",
+  "datesCertain": true,
+  "desc": "When a French soldier brought sweet onion seeds to Walla Walla in the late 1800s, he discovered that this valley’s abundance of water and rich vegetation was the perfect environment for cultivating this crop.  Ever since then, sweet onions have been produced here as a specialty vegetable crop, loved by both locals and visitors alike.  The annual Walla Walla Sweet Onion Festival honors this significant crop through music, games, foods, and much more!  Discover everything there is to do during this exciting weekend and start making your plans to attend today!"
+},
+{
+  "name": "Chehalis Garlic Fest",
+  "url": "http://www.chehalisgarlicfest.com/",
+  "city": "Chehalis, WA",
+  "dateStart": "08262017",
+  "dateEnd": "08282017",
+  "datesCertain": false,
+  "desc": "Garlic Themed Cuisinn, Artisan & Craft Vendors, Kids Activities, Chef Demonstrations"
+},
+{
+  "name": "Mossybrook Blueberry Festival",
+  "url": "https://mossyrockfestivals.org/",
+  "city": "Mossyrock, WA",
+  "dateStart": "08042017",
+  "dateEnd": "08062017",
+  "datesCertain": true,
+  "desc": "The Mossyrock Blueberry Festival is a community-led event coordinated by the Mossyrock Area Action League (MAAL), a grass roots, 501(c)3 non-profit organization working on community asset building, economic development, and poverty reduction in East Lewis County, Washington."
+},
+{
+  "name": "Everett Sausage Fest",
+  "url": "http://www.everettsausagefest.com/",
+  "city": "Everett, WA",
+  "dateStart": "09292017",
+  "dateEnd": "10012017",
+  "datesCertain": true,
+  "desc": "The Everett Sausage Festival is a family-oriented weekend fair centered around a Bavarian theme. From our traditional Bavarian Dinner to a variety of food booths, children's games, the Family Entertainment Stage, bingo, carnival, and Bavarian Beer Garden and Stage, there is something for everyone."
+},
+{
+  "name": "The Great Wallingford Wurst Festival",
+  "url": "http://www.stbens.net/news-events/wurst-festival/",
+  "city": "Seattle, WA",
+  "dateStart": "09162017",
+  "dateEnd": "09172017",
+  "datesCertain": false,
+  "desc": "The Great Wallingford Wurst Festival is an Octoberfest style end-of-summer celebration that takes place in September at St. Benedict School. Now in its 33rd year, the festival started as a small fundraiser for the school. Today the festival brings more than 10,000 visitors to the Wallingford neighborhood in one weekend. The Wurst Festival features rides, an array of delicious foods, games for kids of all ages, craft booths, homemade sweets, a book sale, a Biergarten, a raffle, plus live entertainment on an outdoor stage."
+},
+{
+  "name": "Onalaska Apple Harvest Festival",
+  "url": "http://www.onalaskaalliance.org/apple-harvest-festival.html",
+  "city": "Onalaska, WA",
+  "dateStart": "09302017",
+  "dateEnd": "10022017",
+  "datesCertain": false,
+  "desc": "The Onalaska Apple Harvest Festival is a wonderful opportunity to celebrate the diversity found in Onalaska. The mission of the Onalaska Alliance involves building our local community, and we feel that this event does just that! Our festival started out small, but now we are struggling to contain the awesomeness!"
+},
+{
+  "name": "San Juan Island Lavendar Festival",
+  "url": "http://www.pelindabalavender.com/lavender-festival-a/282.htm",
+  "city": "Friday Harbor, WA",
+  "dateStart": "07152017",
+  "dateEnd": "07162017",
+  "datesCertain": true,
+  "desc": "The annual San Juan Island Lavender Festival, sponsored by and hosted at Pelindaba Lavender Farm the third week of every July. It’s free, fragrant and colorful (well, purple, anyway). Two days of all things lavender: tours of organic fields, drying barn and distillery, commercial kitchen and bakery, and the production center where over 240 products are handcrafted; craft workshops, cooking demos, self-harvesting, picnics in the lavender fields, local music, etc. Lavender fun for the whole family. "
+},
+{
+  "name": "Burlington Berry Dairy Days",
+  "url": "https://burlington-chamber.com/community-events/berry-dairy-days/",
+  "city": "Burlington, WA",
+  "dateStart": "06162017",
+  "dateEnd": "06182017",
+  "datesCertain": true,
+  "desc": "On the third weekend in June, Burlington will explode into a delicious and exciting place to be. Fresh local strawberry shortcake, spectacular fireworks show, fabulous parades, Kiwanis Salmon BBQ, entertainment stage with live music, nostalgic Berry Cool Car Show and more!"
+},
+{
+  "name": "Marysville Strawberry Festival",
+  "url": "http://www.maryfest.org/",
+  "city": "Marysville, WA",
+  "dateStart": "06162017",
+  "dateEnd": "06182017",
+  "datesCertain": false,
+  "desc": "Endless fun and entertainment painting the town red - red with strawberries, that is - for this annual celebration of the ripe, red berry that earned Marysville the moniker of The Strawberry City."
+},
+{
+  "name": "Skagit River Salmon Festival",
+  "url": "http://skagitriverfest.org/",
+  "city": "Mount Vernon, WA",
+  "dateStart": "09172017",
+  "dateEnd": "09172017",
+  "datesCertain": true,
+  "desc": "Established in 2012, the Skagit River Salmon Festival is a 501(c)(3) nonprofit organization, whose purpose is to inspire conservation of the Skagit watershed’s incredible resources through a community celebration showcasing the Skagit River, its rich history, and vast natural and cultural resources. "
+},
+{
+  "name": "",
+  "url": "aaa",
+  "city": "aaa, WA",
+  "dateStart": "09082017",
+  "dateEnd": "09102017",
+  "datesCertain": true,
+  "desc": "aaa"
+},
