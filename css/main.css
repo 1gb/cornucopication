@@ -96,12 +96,12 @@ textarea {
    ========================================================================== */
 body {
   text-align: center;
-  background: #4e4432;
+  background: #bae1c9;
 }
 
 .top {
   text-align: center;
-  color: #fe6d39;
+  color: #e39839;
 }
 
 .main {
@@ -109,10 +109,11 @@ body {
   display: inline-block;
   width: 86%;
   margin: 5px auto;
-  padding: 20px 10px;
+  padding: 20px 40px;
   color: #8da0af;
   background: #4f5052;
-  border: 1px solid #
+  border: 1px solid #a2bc55;
+  border-radius: 15px;
 }
 
 .month-group h3 {
