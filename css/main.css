@@ -94,10 +94,30 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  text-align: center;
+  background: #4e4432;
+}
 
+.top {
+  text-align: center;
+  color: #fe6d39;
+}
 
+.main {
+  text-align: left;
+  display: inline-block;
+  width: 86%;
+  margin: 5px auto;
+  padding: 20px 10px;
+  color: #8da0af;
+  background: #4f5052;
+  border: 1px solid #
+}
 
-
+.month-group h3 {
+  color: #a2bc55;
+}
 
 
 
