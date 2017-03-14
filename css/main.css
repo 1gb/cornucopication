@@ -101,17 +101,15 @@ body {
 
 .top {
   text-align: center;
-  color: #e39839;
 }
 
 .main {
   text-align: left;
   display: inline-block;
-  width: 86%;
   margin: 5px auto;
   padding: 20px 40px;
-  color: #8da0af;
-  background: #4f5052;
+  /*color: #8da0af;
+  background: #4f5052;*/
   border: 1px solid #a2bc55;
   border-radius: 15px;
 }
