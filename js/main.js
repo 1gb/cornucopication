@@ -16,9 +16,21 @@ $(document).ready(function() {
         desc: this.desc
       });
 
-      $('.festival-list').append('<li><strong>' + this.name + '</strong><span class="date">: ' + this.dateStart + ' - ' + this.dateEnd
+      $('.festival-list').append('<li><strong>' + this.name + '</strong><br><span class="date">' + this.dateStart + ' - ' + this.dateEnd
         + '<span><br>' + this.city + '</li> <a href="' + this.url + '">' + this.url + '</a>' );
     });
+  });
+
+  $('#date-sort a').click(function (e) {
+    e.preventDefault();
+    $('#map-list').hide();
+    $('#date-list').show();
+  });
+
+  $('#map-sort a').click(function (e) {
+    e.preventDefault();
+    $('#date-list').hide();
+    $('#map-list').show();
   });
 
 

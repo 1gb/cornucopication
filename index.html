@@ -28,7 +28,22 @@
 			<div class="container">
 				<div class="row">
 					<div class="main col-sm-10 col-sm-offset-1 col-xs-12">
-						<div class="date-list">
+						<!-- Nav tabs -->
+						<ul class="nav nav-tabs" role="tablist">
+						  <li class="nav-item" id="date-sort">
+						    <a class="nav-link active" data-toggle="tab" href="#" role="tab">Sorted by Date</a>
+						  </li>
+						  <li class="nav-item" id="map-sort">
+						    <a class="nav-link" data-toggle="tab" href="#" role="tab">Map</a>
+						  </li>
+						</ul>
+
+						<!-- Tab panes -->
+						<!-- <div class="tab-content">
+						  <div class="tab-pane active" id="dateSort" role="tabpanel">...Sorted by Date</div>
+						  <div class="tab-pane" id="mapSort" role="tabpanel">Sorted by location on Map</div> -->
+						<!-- </div> -->
+						<div id="date-list">
 							<div class="month-group">
 								<h3>Month Title</h3>
 								<ul class="festival-list">
@@ -37,6 +52,9 @@
 									<li><span class="date">30th</span> Example Event Title - Location</li> -->
 								</ul>
 							</div>
+						</div>
+						<div id="map-list">
+							Map Goes Here
 						</div>
 					</div>
 				</div>
