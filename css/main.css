@@ -114,11 +114,17 @@ body {
   border-radius: 15px;
 }
 
+.item {
+  margin-top: 11px;  
+}
+
 .month-group h3 {
   color: #a2bc55;
 }
 
-
+#map-list {
+  display: none;
+}
 
 
 
