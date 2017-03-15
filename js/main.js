@@ -42,16 +42,10 @@ $(document).ready(function() {
 
   var format = function() {
 
-//check to see if a div with the id month exists
-//if not, make it and append item
-// else append item
-
     events.forEach( function(element) {
       var thisMonth = element.monthString.toLowerCase();
-      // console.log('"' + element.monthString.toLowerCase() + '"');
 
       if ( document.getElementById(thisMonth) === null ) {
-        console.log('I do not exist!', element.monthString);
         $('#date-list').append('<div class="month-group" id="' + thisMonth + '"><h3>' + element.monthString + '</h3><br><ul class="festival-list"><li class="item"><strong>' + element.name + '</strong><br><span class="date">' + element.dateStart + ' - ' + element.dateEnd
           + '<span><br>' + element.city + '</li> <a href="' + element.url + '">' + element.url + '</a>' );
       } else {
