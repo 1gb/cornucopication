@@ -97,25 +97,122 @@ textarea {
 body {
   text-align: center;
   background: #bae1c9;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .top {
+  margin-top: 20px;
   text-align: center;
+}
+
+.title-image {
+  display: inline-block;
+  vertical-align: bottom:
+}
+
+.title-image img {
+  max-height: 100px;
+  height: 100px;
+}
+
+.page-title {
+  font-family: 'Patua One', cursive;
+  font-size: 54px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.sub-title {
+  font-size: 26px;
+  margin-bottom: 10px;
+  font-family: cursive;
+  font-style: italic;
+}
+
+.inner-container {
+  padding: 0 10px;
 }
 
 .main {
   text-align: left;
   display: inline-block;
-  margin: 5px auto;
-  padding: 20px 40px;
-  /*color: #8da0af;
-  background: #4f5052;*/
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
   border: 1px solid #a2bc55;
-  border-radius: 15px;
+  /*border-radius: 15px;*/
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.tabs {
+  text-align: left;
+  display: block;
+}
+
+.tabs ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.tabs ul li {
+  padding: 10px 8px;
+  color: white;
+  background: #a2bc55;
+  border: 1px solid #a2bc55;
+  font-size: 18px;
+  float: left;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom: none;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.tabs ul li a {
+  text-decoration: none;
+}
+
+.tabs ul li.active {
+  background: white;
+  color: #a2bc55;
+}
+
+.month-name {
+  color: #ef8903;
+  font-size: 40px;
+}
+
+.festival-name {
+  display: inline-block;
+  font-family: 'Patua One', cursive;
+  font-size: 32px;
+}
+
+.entry {
+  font-size: 20px;
+}
+
+.single-event {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.event-url {
+  margin-top: 5px;
 }
 
 .item {
-  margin-top: 11px;  
+  margin-top: 11px;
+}
+
+ul {
+  list-style: none;
+}
+
+.panel-default {
+  background: #ccc;
 }
 
 .month-group h3 {
@@ -126,12 +223,26 @@ body {
   display: none;
 }
 
+.entry {
+  margin-left: 60px;
+}
 
+.downIcon {
+  display: inline-block;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: top;
+  background: #ef8903;
+  margin: 2px 10px;
+}
 
-
-
-
-
+#map {
+  height: 400px;
+  width: 100%;
+}
 
 
 

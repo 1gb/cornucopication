@@ -1,6 +1,7 @@
 [
   {
     "name": "Long Beach Razor Clam Festival",
+    "eventId": "001",
     "url": "http://longbeachrazorclamfestival.com/",
     "city": "Long Beach, WA",
     "dateStart": "2017-04-29",
@@ -11,6 +12,7 @@
   },
   {
     "name": "Bremerton Blackberry Festival",
+    "eventId": "002",
     "url": "http://www.blackberryfestival.org/",
     "city": "Bremerton, WA",
     "dateStart": "2017-09-02",
@@ -21,6 +23,7 @@
   },
   {
     "name": "National Lentil Festival",
+    "eventId": "003",
     "url": "http://www.lentilfest.com/",
     "city": "Pullman, WA",
     "dateStart": "2017-08-18",
@@ -31,6 +34,7 @@
   },
   {
     "name": "Huckleberry Festival",
+    "eventId": "004",
     "url": "http://huckleberry-fest.com/",
     "city": "Bingen, WA",
     "dateStart": "2017-09-08",
@@ -41,6 +45,7 @@
   },
   {
     "name": "Northwest Raspberry Festival",
+    "eventId": "005",
     "url": "http://lynden.org/northwest-raspberry-festival-july-14-15-2017/",
     "city": "Lynden, WA",
     "dateStart": "2017-07-14",
@@ -51,6 +56,7 @@
   },
   {
     "name": "Salmon Days",
+    "eventId": "006",
     "url": "http://www.salmondays.org/",
     "city": "Issaquah, WA",
     "dateStart": "2017-10-01",
@@ -61,6 +67,7 @@
   },
   {
     "name": "Rhubarb Pie Festival",
+    "eventId": "007",
     "url": "http://rhubarbpiecapital.com/rhubarb-pie-festival/",
     "city": "Sumner, WA",
     "dateStart": "2017-07-16",
@@ -71,6 +78,7 @@
   },
   {
     "name": "Apple Blossom Festival",
+    "eventId": "008",
     "url": "http://www.appleblossom.org/",
     "city": "Wenatchee, WA",
     "dateStart": "2017-04-27",
@@ -81,6 +89,7 @@
   },
   {
     "name": "Cranberry Harvest Festival",
+    "eventId": "009",
     "url": "http://westportgrayland-chamber.org/pdfs/Cranberry-2017-Schedule.pdf",
     "city": "Westport Grayland, WA",
     "dateStart": "2017-10-14",
@@ -91,6 +100,7 @@
   },
   {
     "name": "OysterFest",
+    "eventId": "010",
     "url": "http://www.oysterfest.org/",
     "city": "Shelton, WA",
     "dateStart": "2017-10-01",
@@ -101,6 +111,7 @@
   },
   {
     "name": "Bellevue Strawberry Festival",
+    "eventId": "011",
     "url": "http://www.bellevuestrawberryfestival.org/HOME.asp",
     "city": "Bellevue, WA",
     "dateStart": "2017-06-24",
@@ -111,6 +122,7 @@
   },
   {
     "name": "Pacific Northwest Mushroom Festival",
+    "eventId": "012",
     "url": "http://www.pnwmushroomfest.org/",
     "city": "Lacey, WA",
     "dateStart": "2017-07-29",
@@ -121,6 +133,7 @@
   },
   {
     "name": "Dungeness Crab &amp; Seafood Festival",
+    "eventId": "013",
     "url": "http://www.crabfestival.org/",
     "city": "Port Angeles, WA",
     "dateStart": "2017-10-06",
@@ -131,6 +144,7 @@
   },
   {
     "name": "Brinnon ShrimpFest",
+    "eventId": "014",
     "url": "http://www.brinnonshrimpfest.org/",
     "city": "Brinnon, WA",
     "dateStart": "2017-05-27",
@@ -141,6 +155,7 @@
   },
   {
     "name": "Chocolate On The Beach Festival",
+    "eventId": "015",
     "url": "http://chocolateonthebeachfestival.com/",
     "city": "Aloha, Moclips, Copalis Beach, Copalis Crossing, Pacific Beach, and Seabrook, WA",
     "dateStart": "2017-02-23",
@@ -151,6 +166,7 @@
   },
   {
     "name": "Northwest Garlic Festival",
+    "eventId": "016",
     "url": "http://www.nwgarlicfestival.org/",
     "city": "Ocean Park, WA",
     "dateStart": "2017-06-17",
@@ -161,6 +177,7 @@
   },
   {
     "name": "Sweet Onion Festival",
+    "eventId": "017",
     "url": "http://www.sweetonions.org/",
     "city": "Walla Walla, WA",
     "dateStart": "2017-06-17",
@@ -171,6 +188,7 @@
   },
   {
     "name": "Chehalis Garlic Fest",
+    "eventId": "018",
     "url": "http://www.chehalisgarlicfest.com/",
     "city": "Chehalis, WA",
     "dateStart": "2017-08-26",
@@ -181,6 +199,7 @@
   },
   {
     "name": "Mossybrook Blueberry Festival",
+    "eventId": "019",
     "url": "https://mossyrockfestivals.org/",
     "city": "Mossyrock, WA",
     "dateStart": "2017-08-04",
@@ -191,6 +210,7 @@
   },
   {
     "name": "Everett Sausage Fest",
+    "eventId": "020",
     "url": "http://www.everettsausagefest.com/",
     "city": "Everett, WA",
     "dateStart": "2017-09-29",
@@ -201,6 +221,7 @@
   },
   {
     "name": "The Great Wallingford Wurst Festival",
+    "eventId": "021",
     "url": "http://www.stbens.net/news-events/wurst-festival/",
     "city": "Seattle, WA",
     "dateStart": "2017-09-16",
@@ -211,6 +232,7 @@
   },
   {
     "name": "Onalaska Apple Harvest Festival",
+    "eventId": "022",
     "url": "http://www.onalaskaalliance.org/apple-harvest-festival.html",
     "city": "Onalaska, WA",
     "dateStart": "2017-09-30",
@@ -221,6 +243,7 @@
   },
   {
     "name": "San Juan Island Lavendar Festival",
+    "eventId": "023",
     "url": "http://www.pelindabalavender.com/lavender-festival-a/282.htm",
     "city": "Friday Harbor, WA",
     "dateStart": "2017-07-15",
@@ -231,6 +254,7 @@
   },
   {
     "name": "Burlington Berry Dairy Days",
+    "eventId": "024",
     "url": "https://burlington-chamber.com/community-events/berry-dairy-days/",
     "city": "Burlington, WA",
     "dateStart": "2017-06-16",
@@ -241,6 +265,7 @@
   },
   {
     "name": "Marysville Strawberry Festival",
+    "eventId": "025",
     "url": "http://www.maryfest.org/",
     "city": "Marysville, WA",
     "dateStart": "2017-06-16",
@@ -251,6 +276,7 @@
   },
   {
     "name": "Skagit River Salmon Festival",
+    "eventId": "026",
     "url": "http://skagitriverfest.org/",
     "city": "Mount Vernon, WA",
     "dateStart": "2017-09-17",
