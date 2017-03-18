@@ -4,6 +4,10 @@
     "eventId": "001",
     "url": "http://longbeachrazorclamfestival.com/",
     "city": "Long Beach, WA",
+    "coords": {
+        "lat": 46.349134,
+        "lon": -124.0567037
+      },
     "dateStart": "2017-04-29",
     "dateEnd": "2017-04-30",
     "datesCertain": true,
@@ -15,6 +19,10 @@
     "eventId": "002",
     "url": "http://www.blackberryfestival.org/",
     "city": "Bremerton, WA",
+    "coords": {
+        "lat": 47.5655493,
+        "lon": -122.6276653
+      },
     "dateStart": "2017-09-02",
     "dateEnd": "2017-09-04",
     "datesCertain": true,
@@ -26,6 +34,10 @@
     "eventId": "003",
     "url": "http://www.lentilfest.com/",
     "city": "Pullman, WA",
+    "coords": {
+        "lat": 46.7292311,
+        "lon": -117.1736237
+      },
     "dateStart": "2017-08-18",
     "dateEnd": "2017-08-19",
     "datesCertain": true,
@@ -37,6 +49,10 @@
     "eventId": "004",
     "url": "http://huckleberry-fest.com/",
     "city": "Bingen, WA",
+    "coords": {
+        "lat": 45.7182243,
+        "lon": -121.4716687
+      },
     "dateStart": "2017-09-08",
     "dateEnd": "2017-09-10",
     "datesCertain": true,
@@ -48,6 +64,10 @@
     "eventId": "005",
     "url": "http://lynden.org/northwest-raspberry-festival-july-14-15-2017/",
     "city": "Lynden, WA",
+    "coords": {
+        "lat": 48.9427005,
+        "lon": -122.4564467
+      },
     "dateStart": "2017-07-14",
     "dateEnd": "2017-07-15",
     "datesCertain": true,
@@ -59,6 +79,10 @@
     "eventId": "006",
     "url": "http://www.salmondays.org/",
     "city": "Issaquah, WA",
+    "coords": {
+        "lat": 47.533874,
+        "lon": -122.036310
+      },
     "dateStart": "2017-10-01",
     "dateEnd": "2017-10-02",
     "datesCertain": false,
@@ -70,6 +94,10 @@
     "eventId": "007",
     "url": "http://rhubarbpiecapital.com/rhubarb-pie-festival/",
     "city": "Sumner, WA",
+    "coords": {
+        "lat": 47.2023932,
+        "lon": -122.244267
+      },
     "dateStart": "2017-07-16",
     "dateEnd": "2017-07-17",
     "datesCertain": false,
@@ -81,6 +109,10 @@
     "eventId": "008",
     "url": "http://www.appleblossom.org/",
     "city": "Wenatchee, WA",
+    "coords": {
+        "lat": 47.423011,
+        "lon": -120.3149929
+      },
     "dateStart": "2017-04-27",
     "dateEnd": "2017-05-07",
     "datesCertain": true,
@@ -92,6 +124,10 @@
     "eventId": "009",
     "url": "http://westportgrayland-chamber.org/pdfs/Cranberry-2017-Schedule.pdf",
     "city": "Westport Grayland, WA",
+    "coords": {
+        "lat": 46.8590383,
+        "lon": -124.0995116
+      },
     "dateStart": "2017-10-14",
     "dateEnd": "2017-10-15",
     "datesCertain": true,
@@ -103,6 +139,10 @@
     "eventId": "010",
     "url": "http://www.oysterfest.org/",
     "city": "Shelton, WA",
+    "coords": {
+        "lat": 47.2378416,
+        "lon": -123.1449564
+      },
     "dateStart": "2017-10-01",
     "dateEnd": "2017-10-02",
     "datesCertain": false,
@@ -114,6 +154,10 @@
     "eventId": "011",
     "url": "http://www.bellevuestrawberryfestival.org/HOME.asp",
     "city": "Bellevue, WA",
+    "coords": {
+        "lat": 47.617503,
+        "lon": -122.123983
+      },
     "dateStart": "2017-06-24",
     "dateEnd": "2017-06-25",
     "datesCertain": true,
@@ -125,6 +169,10 @@
     "eventId": "012",
     "url": "http://www.pnwmushroomfest.org/",
     "city": "Lacey, WA",
+    "coords": {
+        "lat": 47.044947,
+        "lon": -122.763108
+      },
     "dateStart": "2017-07-29",
     "dateEnd": "2017-07-30",
     "datesCertain": true,
@@ -136,6 +184,10 @@
     "eventId": "013",
     "url": "http://www.crabfestival.org/",
     "city": "Port Angeles, WA",
+    "coords": {
+        "lat": 48.119398,
+        "lon": -123.430732
+      },
     "dateStart": "2017-10-06",
     "dateEnd": "2017-10-08",
     "datesCertain": true,
@@ -147,6 +199,10 @@
     "eventId": "014",
     "url": "http://www.brinnonshrimpfest.org/",
     "city": "Brinnon, WA",
+    "coords": {
+        "lat": 47.7346762,
+        "lon": -122.881607
+      },
     "dateStart": "2017-05-27",
     "dateEnd": "2017-05-28",
     "datesCertain": true,
@@ -158,6 +214,10 @@
     "eventId": "015",
     "url": "http://chocolateonthebeachfestival.com/",
     "city": "Aloha, Moclips, Copalis Beach, Copalis Crossing, Pacific Beach, and Seabrook, WA",
+    "coords": {
+        "lat": 47.2144144,
+        "lon": -124.2055585
+      },
     "dateStart": "2017-02-23",
     "dateEnd": "2017-02-26",
     "datesCertain": true,
@@ -169,6 +229,10 @@
     "eventId": "016",
     "url": "http://www.nwgarlicfestival.org/",
     "city": "Ocean Park, WA",
+    "coords": {
+        "lat": 46.4885498,
+        "lon": -124.0355898
+      },
     "dateStart": "2017-06-17",
     "dateEnd": "2017-06-18",
     "datesCertain": true,
@@ -180,6 +244,10 @@
     "eventId": "017",
     "url": "http://www.sweetonions.org/",
     "city": "Walla Walla, WA",
+    "coords": {
+        "lat": 46.068626,
+        "lon": -118.336651
+      },
     "dateStart": "2017-06-17",
     "dateEnd": "2017-06-18",
     "datesCertain": true,
@@ -191,6 +259,10 @@
     "eventId": "018",
     "url": "http://www.chehalisgarlicfest.com/",
     "city": "Chehalis, WA",
+    "coords": {
+        "lat": 46.6919535,
+        "lon": -122.9581764
+      },
     "dateStart": "2017-08-26",
     "dateEnd": "2017-08-28",
     "datesCertain": false,
@@ -202,6 +274,10 @@
     "eventId": "019",
     "url": "https://mossyrockfestivals.org/",
     "city": "Mossyrock, WA",
+    "coords": {
+        "lat": 46.529421,
+        "lon": -122.485441
+      },
     "dateStart": "2017-08-04",
     "dateEnd": "2017-08-06",
     "datesCertain": true,
@@ -213,6 +289,10 @@
     "eventId": "020",
     "url": "http://www.everettsausagefest.com/",
     "city": "Everett, WA",
+    "coords": {
+        "lat": 47.982684,
+        "lon": -122.193455
+      },
     "dateStart": "2017-09-29",
     "dateEnd": "2017-10-01",
     "datesCertain": true,
@@ -224,6 +304,10 @@
     "eventId": "021",
     "url": "http://www.stbens.net/news-events/wurst-festival/",
     "city": "Seattle, WA",
+    "coords": {
+        "lat": 47.663826,
+        "lon": -122.337005
+      },
     "dateStart": "2017-09-16",
     "dateEnd": "2017-09-17",
     "datesCertain": false,
@@ -235,6 +319,10 @@
     "eventId": "022",
     "url": "http://www.onalaskaalliance.org/apple-harvest-festival.html",
     "city": "Onalaska, WA",
+    "coords": {
+        "lat": 46.575642,
+        "lon": -122.719213
+      },
     "dateStart": "2017-09-30",
     "dateEnd": "2017-10-02",
     "datesCertain": false,
@@ -246,6 +334,10 @@
     "eventId": "023",
     "url": "http://www.pelindabalavender.com/lavender-festival-a/282.htm",
     "city": "Friday Harbor, WA",
+    "coords": {
+        "lat": 48.508755,
+        "lon": -123.099144
+      },
     "dateStart": "2017-07-15",
     "dateEnd": "2017-07-16",
     "datesCertain": true,
@@ -257,6 +349,10 @@
     "eventId": "024",
     "url": "https://burlington-chamber.com/community-events/berry-dairy-days/",
     "city": "Burlington, WA",
+    "coords": {
+        "lat": 48.475209,
+        "lon": -122.329046
+      },
     "dateStart": "2017-06-16",
     "dateEnd": "2017-06-18",
     "datesCertain": true,
@@ -268,6 +364,10 @@
     "eventId": "025",
     "url": "http://www.maryfest.org/",
     "city": "Marysville, WA",
+    "coords": {
+        "lat": 48.051809,
+        "lon": -122.173150
+      },
     "dateStart": "2017-06-16",
     "dateEnd": "2017-06-18",
     "datesCertain": false,
@@ -279,6 +379,10 @@
     "eventId": "026",
     "url": "http://skagitriverfest.org/",
     "city": "Mount Vernon, WA",
+    "coords": {
+        "lat": 48.419387,
+        "lon": -122.343712
+      },
     "dateStart": "2017-09-17",
     "dateEnd": "2017-09-17",
     "datesCertain": true,

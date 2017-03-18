@@ -94,9 +94,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
+html body {
   text-align: center;
-  background: #bae1c9;
+  background-color: #bae1c9;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -139,7 +139,8 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 0 10px;
-  border: 1px solid #a2bc55;
+  background-color: white;
+  /*border: 1px solid #a2bc55;*/
   /*border-radius: 15px;*/
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -157,11 +158,11 @@ body {
 }
 
 .tabs ul li {
-  padding: 10px 8px;
+  padding: 10px 8px 5px;
   color: white;
   background: #a2bc55;
-  border: 1px solid #a2bc55;
-  font-size: 18px;
+  /*border: 1px solid #a2bc55;*/
+  font-size: 20px;
   float: left;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -170,18 +171,30 @@ body {
   text-decoration: none;
 }
 
-.tabs ul li a {
+.tab-link {
   text-decoration: none;
+  color: white;
+}
+
+.tab-link:hover {
+  text-decoration: none;
+  color: #819643;
 }
 
 .tabs ul li.active {
   background: white;
   color: #a2bc55;
 }
+.tabs ul li.active a {
+  text-decoration: none;
+  color: #a2bc55;
+}
 
 .month-name {
   color: #ef8903;
   font-size: 40px;
+  margin-bottom: 30px;
+  margin-left: 20px;
 }
 
 .festival-name {
@@ -209,10 +222,6 @@ body {
 
 ul {
   list-style: none;
-}
-
-.panel-default {
-  background: #ccc;
 }
 
 .month-group h3 {
@@ -244,7 +253,10 @@ ul {
   width: 100%;
 }
 
-
+#map {
+  /*display: inline-block;*/
+    overflow: visible;
+}
 
 
 /* ==========================================================================
