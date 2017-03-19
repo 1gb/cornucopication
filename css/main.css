@@ -96,13 +96,16 @@ textarea {
    ========================================================================== */
 html body {
   text-align: center;
-  background-color: #bae1c9;
+  background-color: #EEB902;
+  /*background-color: #ffdaaa;*/
   font-family: 'Open Sans', sans-serif;
+  color: #1A1928;
 }
 
 .top {
   margin-top: 20px;
   text-align: center;
+  color: white;
 }
 
 .title-image {
@@ -117,7 +120,7 @@ html body {
 
 .page-title {
   font-family: 'Patua One', cursive;
-  font-size: 54px;
+  font-size: 65px;
   display: inline-block;
   vertical-align: bottom;
 }
@@ -125,26 +128,11 @@ html body {
 .sub-title {
   font-size: 26px;
   margin-bottom: 10px;
-  font-family: cursive;
   font-style: italic;
 }
 
 .inner-container {
   padding: 0 10px;
-}
-
-.main {
-  text-align: left;
-  display: inline-block;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 10px;
-  background-color: white;
-  /*border: 1px solid #a2bc55;*/
-  /*border-radius: 15px;*/
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
 }
 
 .tabs {
@@ -153,15 +141,14 @@ html body {
 }
 
 .tabs ul {
-    padding: 0;
-    list-style-type: none;
+  padding: 0;
+  list-style-type: none;
 }
 
 .tabs ul li {
   padding: 10px 8px 5px;
   color: white;
   background: #a2bc55;
-  /*border: 1px solid #a2bc55;*/
   font-size: 20px;
   float: left;
   border-top-right-radius: 10px;
@@ -183,28 +170,57 @@ html body {
 
 .tabs ul li.active {
   background: white;
-  color: #a2bc55;
 }
+
 .tabs ul li.active a {
   text-decoration: none;
   color: #a2bc55;
 }
 
-.month-name {
+.main {
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.visible-section {
+  padding: 0 20px 25px;
+}
+
+#map-list {
+  display: none;
+}
+
+#about-page {
+  display: none;
+  font-size: 16px;
+}
+
+.month-group h3 {
+  font-weight: bold;
+  color: #a2bc55;
+  padding-left: 20px;
+}
+
+.sub-heading {
   color: #ef8903;
-  font-size: 40px;
+  font-size: 36px;
   margin-bottom: 30px;
-  margin-left: 20px;
 }
 
 .festival-name {
   display: inline-block;
   font-family: 'Patua One', cursive;
-  font-size: 32px;
+  font-size: 26px;
 }
 
 .entry {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .single-event {
@@ -222,14 +238,6 @@ html body {
 
 ul {
   list-style: none;
-}
-
-.month-group h3 {
-  color: #a2bc55;
-}
-
-#map-list {
-  display: none;
 }
 
 .entry {
@@ -251,13 +259,28 @@ ul {
 #map {
   height: 400px;
   width: 100%;
+  margin-bottom: 20px;
 }
 
-#map {
-  /*display: inline-block;*/
-    overflow: visible;
+.mapInfo {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
 }
 
+.quote {
+  margin: 25px 40px 0;
+  color: #819643;
+  font-size: 24px;
+  font-family: 'Patua One', cursive;
+  text-align: center;
+}
+
+.author {
+  text-align: right;
+  color: #819643;
+  font-style: italic;
+  margin-bottom: 40px;
+}
 
 /* ==========================================================================
    Helper classes

@@ -1,22 +1,22 @@
 <!doctype html>
 <html class="no-js" lang="en">
-		<head>
-				<meta charset="utf-8">
-				<meta http-equiv="x-ua-compatible" content="ie=edge">
-				<title>Cornucopication - Seasonal Revelries</title>
-				<meta name="description" content="A collection of events which embody the spirit of small town festivals celebrating locally produced goods or crops, especially those which are edible such as fruits or seafood.">
-				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-				<link rel="stylesheet" href="css/normalize.css">
-				<link rel="stylesheet" href="css/main.css">
-				<link rel="stylesheet" href="css/bootstrap.min.css">
-				<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-				<link rel="stylesheet" href="css/font-awesome.min.css">
-				<link href="https://fonts.googleapis.com/css?family=Open+Sans|Patua+One" rel="stylesheet">		</head>
-		<body>
+	<head>
+			<meta charset="utf-8">
+			<meta http-equiv="x-ua-compatible" content="ie=edge">
+			<title>Cornucopication - Seasonal Revelries</title>
+			<meta name="description" content="A collection of events which embody the spirit of small town festivals celebrating locally produced goods or crops, especially those which are edible such as fruits or seafood.">
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+			<link rel="stylesheet" href="css/normalize.css">
+			<link rel="stylesheet" href="css/main.css">
+			<link rel="stylesheet" href="css/bootstrap.min.css">
+			<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans|Patua+One" rel="stylesheet">
+		</head>
+	<body>
 				<!--[if lt IE 8]>
 						<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 				<![endif]-->
-
 			<div class="container-fluid">
 				<div class="row">
 					<div class="top">
@@ -36,23 +36,50 @@
 							<div class="tabs">
 								<ul>
 									<li class="tab-item active" id="date-sort">
-										<a class="tab-link" data-toggle="tab" href="#" role="tab">Upcoming</a>
+										<a class="tab-link" data-toggle="tab" href="#date-list" role="tab">Upcoming</a>
 									</li>
 									<li class="tab-item" id="map-sort">
-										<a class="tab-link" data-toggle="tab" href="#" role="tab">Map View</a>
+										<a class="tab-link" data-toggle="tab" href="#map-list" role="tab">Map View</a>
+									</li>
+									<li class="tab-item" id="about-tab">
+										<a class="tab-link" data-toggle="tab" href="#about-page" role="tab">About</a>
 									</li>
 								</ul>
 							</div>
 							<div class="main">
-
-								<div id="date-list">
+								<script type="text/html" id="template">
+									<h1>My Favorite European Cities</h1>
+									<ul>
+										{{#cities}}
+										<li>{{name}}</li>
+										{{/cities}}
+									</ul>
+								</script>
+								<div class="visible-section" id="date-list">
 								</div>
-								<div id="map-list">
-									<h3>Events by Location</h3>
-									<!-- <div id="googleMap"></div> -->
-
+								<div class="visible-section" id="map-list">
+									<h3 class="sub-heading" id="map-page-title">Events by Location</h3>
 									<div id="map"></div>
-
+								</div>
+								<div class="visible-section" id="about-page">
+									<h3 class="sub-heading" id="about-page-title">About</h3>
+									<div class="about-content">
+										<h4>
+											Why the name Cornucopication?
+										</h4>
+										<p>
+											Intended to invoke the spirit of the bountiful harvest, we combined the word cornucopia with the
+											word celebration.
+											Together, these words form "Cornucopication", a magical word that we hope fills you with the joy of the season.
+											We feel that small, local, family friendly festivals deserve to be showcased and enjoyed by all.
+											Perhaps you are looking for a fun family outing, or a day-trip to a town you've never been to before.
+											Whatever the reason that brought you to Cornucopia, we are very glad you're here. Please be welcome. You are family now.
+										</p>
+										<div class="quote">"Don't judge each day by the harvest you reap but by the seeds that you plant."</div>
+										<div class="author">-Robert Louis Stevenson</div>
+										<p>We at Cornucopia hope that you find our website useful, and that you enjoy many wonderful trips to festivals in
+										the years to come!</p>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -60,14 +87,13 @@
 				</div>
 			</div>
 
+		<script src="js/vendor/jquery-3.1.1.min.js"></script>
+		<script src="js/vendor/bootstrap.min.js"></script>
+		<script src="js/vendor/moment.min.js"></script>
+		<script src="js/main.js"></script>
+		<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBy4bYoPSjvyyYp-F3uvdPFbO00rp2lXZk">
+		</script>
 
- 				<script src="js/vendor/jquery-3.1.1.min.js"></script>
-				<script src="js/vendor/bootstrap.min.js"></script>
-				<script src="js/vendor/moment.min.js"></script>
-				<script src="js/main.js"></script>
-				<script async defer
-				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBy4bYoPSjvyyYp-F3uvdPFbO00rp2lXZk">
-				</script>
-
-		</body>
+	</body>
 </html>

@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
   var events = [];
+  var locations = [];
 
   $.getJSON( "data/festivals.json", function( data ) {
 
@@ -19,7 +20,16 @@ $(document).ready(function() {
         type: this.type,
         desc: this.desc
       });
+    });
 
+    $.each( data, function() {
+      locations.push({
+        name: this.name,
+        desc: this.desc,
+        lat: this.coords.lat,
+        lon: this.coords.lon,
+        url: this.url
+      });
     });
     sortByMonth();
     format();
@@ -49,35 +59,51 @@ $(document).ready(function() {
       var eventUrl = '<div class="event-url"><a href="' + element.url + '" target="_blank">Visit the ' + element.name + ' Website</a></div>';
 
       // If a month section doesn't exist, create one
-
       if ( document.getElementById(thisMonth) === null ) {
-        $('#date-list').append('<div class="month-group" id="' + thisMonth + '"><h3 class="month-name">' + element.monthString + '</h3><ul class="festival-list"><li class="item collapsed" data-toggle="collapse" data-target="#' + element.eventId + '">' + downIcon + '<div class="festival-name">' + element.name + '</div><div class="entry"><span class="date">' + element.dateStart + ' - ' + element.dateEnd + '</span> • ' + element.city +
-        '<div id="' + element.eventId + '" class="single-event collapse">' + element.desc + eventUrl + '</div></li></div>');
+        $('#date-list').append(
+          '<div class="month-group" id="' + thisMonth + '">' +
+            '<h3 class="sub-heading">' + element.monthString + '</h3>' +
+            '<ul class="festival-list">' +
+              '<li class="item collapsed" data-toggle="collapse" data-target="#' + element.eventId + '">' +
+              downIcon +
+                '<div class="festival-name">' + element.name + '</div>' +
+                '<div class="entry">' +
+                  '<span class="date">' + element.dateStart + ' - ' + element.dateEnd + '</span>' + ' • ' + element.city +
+                  '<div id="' + element.eventId + '" class="single-event collapse">' + element.desc + eventUrl + '</div>' +
+                '</div>' +
+              '</li>' +
+          '</div>');
       } else {
-      $('#' + thisMonth + ' .festival-list').append('<li class="item collapsed" data-toggle="collapse" data-target="#' + element.eventId + '">' + downIcon + '<div class="festival-name">' + element.name + '</div><div class="entry"><span class="date">' + element.dateStart + ' - ' + element.dateEnd + '</span> • ' + element.city +
-      '<div id="' + element.eventId + '" class="single-event collapse">' + element.desc + eventUrl + '</div></li></div>');
+        $('#' + thisMonth + ' .festival-list').append(
+          '<li class="item collapsed" data-toggle="collapse" data-target="#' + element.eventId + '">' +
+          downIcon +
+            '<div class="festival-name">' + element.name + '</div>' +
+            '<div class="entry">' +
+              '<span class="date">' + element.dateStart + ' - ' + element.dateEnd + '</span> • ' + element.city +
+              '<div id="' + element.eventId + '" class="single-event collapse">' + element.desc + eventUrl + '</div>' +
+            '</div>' +
+          '</li>');
+      }
+    });
+  };
+
+  // Tab functionality
+  $('.tab-item').on({
+    click: function(e) {
+      e.preventDefault();
+      var showTab = $(this).find('a').attr('href');
+      $('.active').removeClass('active');
+      $(this).addClass('active');
+      $('.visible-section:visible').hide();
+      $(showTab).show();
+
+      if (showTab === '#map-list') {
+        initMap();
+      }
     }
-  });
-};
+});
 
-  $('#date-sort a').click(function (e) {
-    e.preventDefault();
-    $('#map-list').hide();
-    $('#date-list').show();
-    $('#date-sort').addClass('active');
-    $('#map-sort').removeClass('active');
-  });
-
-  $('#map-sort a').click(function (e) {
-    e.preventDefault();
-    initMap();
-    $('#date-list').hide();
-    $('#map-list').show();
-    $('#map-sort').addClass('active');
-    $('#date-sort').removeClass('active');
-  });
-
-  // GOOGLE MAP
+  // Google Map Mobile
   function detectBrowser() {
     var useragent = navigator.userAgent;
     var mapdiv = document.getElementById("map");
@@ -91,27 +117,32 @@ $(document).ready(function() {
     }
   }
 
+// Google Map
   function initMap() {
-    console.log('initMap');
-    // var uluru = {lat: -25.363, lng: 131.044};
     var liberty = {lat: 47.25372, lng: -120.6710793};
     var map = new google.maps.Map(document.getElementById('map'), {
+      center: liberty,
       zoom: 6,
-      center: liberty
     });
 
-    events.forEach(function(element) {
+    var infowindow = null;
 
-      var marker = new google.maps.Marker({
-        position: events.city,
-        map: map
+    locations.forEach( function(element) {
+      var position = new google.maps.LatLng(element.lat, element.lon);
+      marker = new google.maps.Marker({
+        position: position,
+        map: map,
+        title: element.name
+      });
+
+      marker.addListener('click', function() {
+        if (infowindow) {
+          infowindow.close();
+        }
+        infowindow = new google.maps.InfoWindow();
+        infowindow.setContent('<div class="mapInfo"><a href="' + element.url + '" target="_blank">' + element.name + '</a></div>');
+        infowindow.open(map, this);
       });
     });
-    // var marker = new google.maps.Marker({
-    //   position: uluru,
-    //   map: map
-    // });
-  }
-
-
+  } //end initMap
 });
