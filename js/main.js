@@ -88,8 +88,7 @@ $(document).ready(function() {
   };
 
   // Tab functionality
-  $('.tab-item').on({
-    click: function(e) {
+  $('.tab-item').on('click touchstart', function(e) {
       e.preventDefault();
       var showTab = $(this).find('a').attr('href');
       $('.active').removeClass('active');
@@ -100,8 +99,7 @@ $(document).ready(function() {
       if (showTab === '#map-list') {
         initMap();
       }
-    }
-});
+    });
 
   // Google Map Mobile
   function detectBrowser() {
