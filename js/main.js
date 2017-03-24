@@ -55,8 +55,17 @@ $(document).ready(function() {
 
     events.forEach( function(element) {
       var thisMonth = element.monthString.toLowerCase();
-      var downIcon = '<div class="downIcon"><i class="fa fa-angle-double-down fa-3x" aria-hidden="true"></i></div>';
+      var downIcon = '<span class="downIcon"><i class="fa fa-angle-double-down" aria-hidden="true"></i></span>';
       var eventUrl = '<div class="event-url"><a href="' + element.url + '" target="_blank">Visit the ' + element.name + ' Website</a></div>';
+      var calendar = '<span class="addtocalendar atc-style-blue">' + // From http://addtocalendar.com/
+              '<var class="atc_event">' +
+                  '<var class="atc_date_start">' + '</var>' +
+                  '<var class="atc_date_end">2016-05-04 18:00:00</var>' +
+                  '<var class="atc_title">Star Wars Day Party</var>' +
+                  '<var class="atc_description">May the force be with you</var>' +
+                  '<var class="atc_location">Tatooine</var>' +
+              '</var>' +
+          '</span>';
 
       // If a month section doesn't exist, create one
       if ( document.getElementById(thisMonth) === null ) {
@@ -65,8 +74,7 @@ $(document).ready(function() {
             '<h3 class="sub-heading">' + element.monthString + '</h3>' +
             '<ul class="festival-list">' +
               '<li class="item collapsed" data-toggle="collapse" data-target="#' + element.eventId + '">' +
-              downIcon +
-                '<div class="festival-name">' + element.name + '</div>' +
+                '<div class="festival-name">' + downIcon + element.name + '</div>' +
                 '<div class="entry">' +
                   '<span class="date">' + element.dateStart + ' - ' + element.dateEnd + '</span>' + ' • ' + element.city +
                   '<div id="' + element.eventId + '" class="single-event collapse">' + element.desc + eventUrl + '</div>' +
@@ -76,8 +84,7 @@ $(document).ready(function() {
       } else {
         $('#' + thisMonth + ' .festival-list').append(
           '<li class="item collapsed" data-toggle="collapse" data-target="#' + element.eventId + '">' +
-          downIcon +
-            '<div class="festival-name">' + element.name + '</div>' +
+            '<div class="festival-name">' + downIcon + element.name + '</div>' +
             '<div class="entry">' +
               '<span class="date">' + element.dateStart + ' - ' + element.dateEnd + '</span> • ' + element.city +
               '<div id="' + element.eventId + '" class="single-event collapse">' + element.desc + eventUrl + '</div>' +
