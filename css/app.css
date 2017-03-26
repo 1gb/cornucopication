@@ -184,6 +184,12 @@ ul {
   font-family: 'Open Sans', sans-serif;
 }
 
+.faq {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 10px 0;
+}
+
 .quote {
   margin: 25px 40px 0;
   color: #819643;
@@ -205,6 +211,15 @@ ul {
 @media (max-width:632px) {
   .page-title {
     font-size: 34px;
+    display: block;
+  }
+
+  .title-image img {
+    opacity: 0.9;
+    z-index: -1;
+    padding-right: 35px;
+    max-height: 130px;
+    height: 130px;
   }
 
   .sub-title {
@@ -279,5 +294,14 @@ ul {
     width: 20px;
     height: 20px;
     margin: 2px 4px;
+  }
+
+  .author {
+    padding-right: 20px;
+  }
+
+  .faq {
+    font-size: 16px;
+    /*margin: 10px 0;*/
   }
 }
