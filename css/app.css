@@ -1,7 +1,6 @@
 html body {
   text-align: center;
   background-color: #95A664;
-  /*background-color: #ffdaaa;*/
   font-family: 'Open Sans', sans-serif;
   color: #1A1928;
 }
@@ -14,7 +13,7 @@ html body {
 
 .title-image {
   display: inline-block;
-  vertical-align: bottom:
+  padding-right: 12px;
 }
 
 .title-image img {
