@@ -6,10 +6,6 @@ html body {
   color: #1A1928;
 }
 
-/*new bg darker green: #95A664*/
-/*light green: #DFE1D0*/
-/* old green: #a2bc55 */
-
 .top {
   margin-top: 20px;
   text-align: center;
@@ -215,7 +211,7 @@ ul {
   }
 
   .title-image img {
-    opacity: 0.9;
+    opacity: 0.75;
     z-index: -1;
     padding-right: 35px;
     max-height: 130px;
@@ -302,6 +298,5 @@ ul {
 
   .faq {
     font-size: 16px;
-    /*margin: 10px 0;*/
   }
 }
