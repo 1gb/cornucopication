@@ -25,6 +25,8 @@ $(document).ready(function() {
     $.each( data, function() {
       locations.push({
         name: this.name,
+        dateStart: moment(this.dateStart).format('MMM Do'),
+        dateEnd: moment(this.dateEnd).format('MMM Do'),
         desc: this.desc,
         lat: this.coords.lat,
         lon: this.coords.lon,
@@ -145,7 +147,7 @@ $(document).ready(function() {
           infowindow.close();
         }
         infowindow = new google.maps.InfoWindow();
-        infowindow.setContent('<div class="mapInfo"><a href="' + element.url + '" target="_blank">' + element.name + '</a></div>');
+        infowindow.setContent('<div class="mapInfo"><a href="' + element.url + '" target="_blank">' + element.name + '</a></div><div>' + element.dateStart + ' to ' + element.dateEnd + '</div>');
         infowindow.open(map, this);
       });
     });
