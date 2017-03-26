@@ -1,10 +1,14 @@
 html body {
   text-align: center;
-  background-color: #EEB902;
+  background-color: #95A664;
   /*background-color: #ffdaaa;*/
   font-family: 'Open Sans', sans-serif;
   color: #1A1928;
 }
+
+/*new bg darker green: #95A664*/
+/*light green: #DFE1D0*/
+/* old green: #a2bc55 */
 
 .top {
   margin-top: 20px;
@@ -30,9 +34,9 @@ html body {
 }
 
 .sub-title {
-  font-size: 26px;
+  font-size: 24px;
+  color: #f5fce0;
   margin-bottom: 10px;
-  font-style: italic;
 }
 
 .inner-container {
@@ -56,7 +60,7 @@ html body {
 .tabs ul li {
   padding: 10px 8px 5px;
   color: white;
-  background: #a2bc55;
+  background: #DFE1D0;
   font-size: 20px;
   float: left;
   border-top-right-radius: 10px;
@@ -68,12 +72,12 @@ html body {
 
 .tab-link {
   text-decoration: none;
-  color: white;
+  color: #1A1928;
 }
 
 .tab-link:hover {
   text-decoration: none;
-  color: #819643;
+  color: #a2bc55;
 }
 
 .tabs ul li.active {
@@ -97,7 +101,10 @@ html body {
 }
 
 .visible-section {
-  padding: 0 20px 25px;
+  padding-top: 0;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-bottom: 25px;
 }
 
 #map-list {
@@ -155,6 +162,7 @@ ul {
 
 .downIcon {
   display: inline-block;
+  font-size: 30px;
   color: white;
   border-radius: 50%;
   width: 40px;

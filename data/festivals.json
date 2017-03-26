@@ -218,9 +218,9 @@
         "lat": 47.2144144,
         "lon": -124.2055585
       },
-    "dateStart": "2017-02-23",
-    "dateEnd": "2017-02-26",
-    "datesCertain": true,
+    "dateStart": "2018-02-23",
+    "dateEnd": "2018-02-26",
+    "datesCertain": false,
     "type": "dessert",
     "desc": "This is a fun, family festival offering something for every chocolate lover!  There are chocolate vendors, artists, and crafters.  You can attend a cooking class or enter your favorite recipe in the recipe contest.  How about entering an eating contest?  You can do all this and so much more.  Attendees will find chocolate that is gluten free, dairy free, vegan, organic, fair trade, raw and even healthy treats for your favorite furry friends."
   },
