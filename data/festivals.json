@@ -375,6 +375,96 @@
     "desc": "Endless fun and entertainment painting the town red - red with strawberries, that is - for this annual celebration of the ripe, red berry that earned Marysville the moniker of The Strawberry City."
   },
   {
+    "name": "Burien Wild Strawberry Festival",
+    "eventId": "027",
+    "url": "https://burienwa.gov/index.aspx?NID=773",
+    "city": "Burien, WA",
+    "coords": {
+        "lat": 47.466771,
+        "lon": -122.351290
+      },
+    "dateStart": "2017-06-17",
+    "dateEnd": "2017-06-18",
+    "datesCertain": false,
+    "type": "fruit",
+    "desc": "Whether you are new to the area or a long time resident, the Wild Strawberry Festival is a tradition like no other. A family friendly annual event with music, games and activities for the kids, artisan craft vendors and the center piece of the event delicious strawberry shortcake. There is so much to see and do all weekend."
+  },
+  {
+    "name": "Penn Cove Musselfest",
+    "eventId": "028",
+    "url": "http://thepenncovemusselsfestival.com/",
+    "city": "Coupeville, WA",
+    "coords": {
+        "lat": 48.220592,
+        "lon": -122.688082
+      },
+    "dateStart": "2018-03-03",
+    "dateEnd": "2018-03-04",
+    "datesCertain": true,
+    "type": "seafood",
+    "desc": "Come join us for the Penn Cove MusselFest—Coupeville’s March tradition. “Bold, briny and blue,” the world famous mussels will be the centerpiece of two days of festivities, including chowder tasting and mussel eating competitions, farm tours and activities for all ages featuring locally-flavored fun."
+  },
+  {
+    "name": "Odessa Deutschesfest",
+    "eventId": "029",
+    "url": "http://www.deutschesfest.com/",
+    "city": "Odessa, WA",
+    "coords": {
+        "lat": 47.335971,
+        "lon": -118.690442
+      },
+    "dateStart": "2017-09-15",
+    "dateEnd": "2017-09-17",
+    "datesCertain": true,
+    "type": "other",
+    "desc": "German music plays its way into your ears, sausage and strudel tease your appetite, and the fun, excitement, and friendliness capture your heart. This four day event is more than just a festival, it's an experience! Every third full weekend in September, the small community of Odessa attracts thousands of visitors and adventurers to its famous Deutschesfest. Sporting an authentic local German Band - The Oom Pas & Mas, German Food, Crafts, and many exciting events, Odessa has made a name for itself by taking pride in its German Heritage. All the preparation for Deutschesfest is done by volunteers throughout the town."
+  },
+  {
+    "name": "Kent Cornucopia Days",
+    "eventId": "030",
+    "url": "http://kcdays.com/",
+    "city": "Kent, WA",
+    "coords": {
+        "lat": 47.386601,
+        "lon": -122.237388
+      },
+    "dateStart": "2017-07-14",
+    "dateEnd": "2017-07-16",
+    "datesCertain": true,
+    "type": "other",
+    "desc": "The nationally recognized and award-winning summer family festival is in Kent, just south of Seattle. The street fair alone is huge – over 600 vendors from around the coutry! Other main events include the farmers market, fine crafts market, Dragon Boat Races, a soccer tournament, 5K fun run, and more!"
+  },
+  {
+    "name": "Orting Pumpkin Fest",
+    "eventId": "031",
+    "url": "http://www.tacomaevents.com/pumpkin-festival.html",
+    "city": "Orting, WA",
+    "coords": {
+        "lat": 47.097281,
+        "lon": -122.203913
+      },
+    "dateStart": "2017-10-08",
+    "dateEnd": "2017-10-08",
+    "datesCertain": false,
+    "type": "fruit",
+    "desc": "Designed primarily as a food festival featuring items made with pumpkin ingredients, we'll also celebrate agriculture, music, and lots of pumpkins! Hayrides, pumpkin carving contests and Pumpkins Pals on Parade gives the children a place to show off their favorite pumpkin costume. Musical entertainment is scheduled throughout the day. This event will take you back to the good ol' days of fun, family-oriented entertainment."
+  },
+  {
+    "name": "Vashon Island Strawberry Festival",
+    "eventId": "032",
+    "url": "http://www.vashonchamber.com/pages/vashon-island-strawberry-festival",
+    "city": "Vashon Island, WA",
+    "coords": {
+        "lat": 47.452316,
+        "lon": -122.460433
+      },
+    "dateStart": "2017-07-21",
+    "dateEnd": "2017-07-23",
+    "datesCertain": true,
+    "type": "fruit",
+    "desc": "There is something for all ages and interests during the fun-filled, busy weekend!  A grand-parade, classic car show and parade, several music stages, vendor booths, alternative carnival, local artists, and street dances are all part of the fun.  Toss in pancake breakfasts, a rocking beer garden, a fun run, the firefighter's challenge, the Miss Lucy Dinner, and loads of children's activities. You will have something to do morning til night!"
+  },
+  {
     "name": "Skagit River Salmon Festival",
     "eventId": "026",
     "url": "http://skagitriverfest.org/",

@@ -40,14 +40,14 @@ $(document).ready(function() {
   var now = moment().format('DDD');
 
   var sortByMonth = function() {
+    // put the events in order from beginning of year to end of year
     events = events.sort(function (a, b) {
       return a.dayOfYear - b.dayOfYear;
     });
 
+    // rearrange them against today's date to show the next upcoming event first
     for (i = 0; i < events.length; i++) {
-      if (parseInt(events[i].dayOfYear) >= now) {
-        return;
-      } else {
+      if (parseInt(events[i].dayOfYear) <= now) {
         events.push(events.shift());
       }
     }
