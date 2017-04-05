@@ -133,6 +133,10 @@ html body {
   font-size: 26px;
 }
 
+.calAdd {
+  margin-top: 5px;
+}
+
 .entry {
   font-size: 16px;
   margin-left: 60px;

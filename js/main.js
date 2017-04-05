@@ -11,6 +11,8 @@ $(document).ready(function() {
         eventId: this.eventId,
         url: this.url,
         city: this.city,
+        dateStartO: this.dateStart,
+        dateEndO: this.dateEnd,
         dateStart: moment(this.dateStart).format('MMM Do'),
         dateEnd: moment(this.dateEnd).format('MMM Do'),
         dayOfYear: moment(this.dateStart).format('DDD'),
@@ -59,15 +61,10 @@ $(document).ready(function() {
       var thisMonth = element.monthString.toLowerCase();
       var downIcon = '<span class="downIcon"><i class="fa fa-angle-double-down" aria-hidden="true"></i></span>';
       var eventUrl = '<div class="event-url"><a href="' + element.url + '" target="_blank">Visit the ' + element.name + ' Website</a></div>';
-      // var calendar = '<span class="addtocalendar atc-style-blue">' + // From http://addtocalendar.com/
-      //         '<var class="atc_event">' +
-      //             '<var class="atc_date_start">' + '</var>' +
-      //             '<var class="atc_date_end">2016-05-04 18:00:00</var>' +
-      //             '<var class="atc_title">Star Wars Day Party</var>' +
-      //             '<var class="atc_description">May the force be with you</var>' +
-      //             '<var class="atc_location">Tatooine</var>' +
-      //         '</var>' +
-      //     '</span>';
+      var calendar = '<div class="calAdd"><a href="https://www.google.com/calendar/render?action=TEMPLATE&text=' + element.name +
+        '&dates=' + moment(element.dateStartO).format('YYYYMMDD') + '/' + moment(element.dateEndO).add(1, 'd').format('YYYYMMDD') + '&details=' + element.desc +
+        '&location=' + element.city + '&sf=true&output=xml" target="_blank">' +
+        '<i class="fa fa-calendar" aria-hidden="true"></i>  Add to Google Calendar</a></div>';
 
       // If a month section doesn't exist, create one
       if ( document.getElementById(thisMonth) === null ) {
@@ -78,7 +75,7 @@ $(document).ready(function() {
               '<li class="item collapsed" data-toggle="collapse" data-target="#' + element.eventId + '">' +
                 '<div class="festival-name">' + downIcon + element.name + '</div>' +
                 '<div class="entry">' +
-                  '<span class="date">' + element.dateStart + ' - ' + element.dateEnd + '</span>' + ' • ' + element.city +
+                  '<span class="date">' + element.dateStart + ' - ' + element.dateEnd + '</span>' + ' • ' + element.city + calendar +
                   '<div id="' + element.eventId + '" class="single-event collapse">' + element.desc + eventUrl + '</div>' +
                 '</div>' +
               '</li>' +
@@ -88,7 +85,7 @@ $(document).ready(function() {
           '<li class="item collapsed" data-toggle="collapse" data-target="#' + element.eventId + '">' +
             '<div class="festival-name">' + downIcon + element.name + '</div>' +
             '<div class="entry">' +
-              '<span class="date">' + element.dateStart + ' - ' + element.dateEnd + '</span> • ' + element.city +
+              '<span class="date">' + element.dateStart + ' - ' + element.dateEnd + '</span> • ' + element.city + calendar +
               '<div id="' + element.eventId + '" class="single-event collapse">' + element.desc + eventUrl + '</div>' +
             '</div>' +
           '</li>');
