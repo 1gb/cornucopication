@@ -15,7 +15,7 @@ $(document).ready(function() {
         dateEndO: this.dateEnd,
         dateStart: moment(this.dateStart).format('MMM Do'),
         dateEnd: moment(this.dateEnd).format('MMM Do'),
-        dayOfYear: moment(this.dateStart).format('DDD'),
+        dayOfYear: moment(this.dateEnd).format('DDD'),
         month: moment(this.dateStart).format('MM'),
         monthString: moment(this.dateStart).format('MMMM'),
         datesCertain: this.datesCertain,
@@ -49,7 +49,7 @@ $(document).ready(function() {
 
     // rearrange them against today's date to show the next upcoming event first
     for (i = 0; i < events.length; i++) {
-      if (parseInt(events[i].dayOfYear) <= now) {
+      if (parseInt(events[i].dayOfYear) < now) {
         events.push(events.shift());
       }
     }
