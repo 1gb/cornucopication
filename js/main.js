@@ -15,7 +15,8 @@ $(document).ready(function() {
         dateEndO: this.dateEnd,
         dateStart: moment(this.dateStart).format('MMM Do'),
         dateEnd: moment(this.dateEnd).format('MMM Do'),
-        dayOfYear: moment(this.dateEnd).format('DDD'),
+        dayOfYear: moment(this.dateStart).format('DDD'),
+        dayOfYearEnd: moment(this.dateEnd).format('DDD'),
         month: moment(this.dateStart).format('MM'),
         monthString: moment(this.dateStart).format('MMMM'),
         datesCertain: this.datesCertain,
@@ -36,6 +37,7 @@ $(document).ready(function() {
       });
     });
     sortByMonth();
+    sortFromToday();
     format();
   });
 
@@ -46,17 +48,23 @@ $(document).ready(function() {
     events = events.sort(function (a, b) {
       return a.dayOfYear - b.dayOfYear;
     });
+  };
 
+  var sortFromToday = function() {
+    console.log(events);
     // rearrange them against today's date to show the next upcoming event first
-    for (i = 0; i < events.length; i++) {
-      if (parseInt(events[i].dayOfYear) < now) {
+    for (i = 0; i < events.length - 1; i++) {
+      // console.log(events[i].name, i);
+      if (parseInt(events[i].dayOfYearEnd) < now) {
         events.push(events.shift());
       }
     }
   };
 
-  var format = function() {
+  console.log(events);
 
+  var format = function() {
+    // console.log(events);
     events.forEach( function(element) {
       var thisMonth = element.monthString.toLowerCase();
       var downIcon = '<span class="downIcon"><i class="fa fa-angle-double-down" aria-hidden="true"></i></span>';

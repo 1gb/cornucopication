@@ -4,6 +4,7 @@
     "eventId": "001",
     "url": "http://longbeachrazorclamfestival.com/",
     "city": "Long Beach, WA",
+    "state": "WA",
     "coords": {
         "lat": 46.349134,
         "lon": -124.0567037
@@ -19,6 +20,7 @@
     "eventId": "002",
     "url": "http://www.blackberryfestival.org/",
     "city": "Bremerton, WA",
+    "state": "WA",
     "coords": {
         "lat": 47.5655493,
         "lon": -122.6276653
@@ -34,6 +36,7 @@
     "eventId": "003",
     "url": "http://www.lentilfest.com/",
     "city": "Pullman, WA",
+    "state": "WA",
     "coords": {
         "lat": 46.7292311,
         "lon": -117.1736237
@@ -49,6 +52,7 @@
     "eventId": "004",
     "url": "http://huckleberry-fest.com/",
     "city": "Bingen, WA",
+    "state": "WA",
     "coords": {
         "lat": 45.7182243,
         "lon": -121.4716687
@@ -64,6 +68,7 @@
     "eventId": "005",
     "url": "http://lynden.org/northwest-raspberry-festival-july-14-15-2017/",
     "city": "Lynden, WA",
+    "state": "WA",
     "coords": {
         "lat": 48.9427005,
         "lon": -122.4564467
@@ -79,6 +84,7 @@
     "eventId": "006",
     "url": "http://www.salmondays.org/",
     "city": "Issaquah, WA",
+    "state": "WA",
     "coords": {
         "lat": 47.533874,
         "lon": -122.036310
@@ -94,6 +100,7 @@
     "eventId": "007",
     "url": "http://rhubarbpiecapital.com/rhubarb-pie-festival/",
     "city": "Sumner, WA",
+    "state": "WA",
     "coords": {
         "lat": 47.2023932,
         "lon": -122.244267
@@ -109,6 +116,7 @@
     "eventId": "008",
     "url": "http://www.appleblossom.org/",
     "city": "Wenatchee, WA",
+    "state": "WA",
     "coords": {
         "lat": 47.423011,
         "lon": -120.3149929
@@ -124,6 +132,7 @@
     "eventId": "009",
     "url": "http://westportgrayland-chamber.org/pdfs/Cranberry-2017-Schedule.pdf",
     "city": "Westport Grayland, WA",
+    "state": "WA",
     "coords": {
         "lat": 46.8590383,
         "lon": -124.0995116
@@ -139,6 +148,7 @@
     "eventId": "010",
     "url": "http://www.oysterfest.org/",
     "city": "Shelton, WA",
+    "state": "WA",
     "coords": {
         "lat": 47.2378416,
         "lon": -123.1449564
@@ -154,6 +164,7 @@
     "eventId": "011",
     "url": "http://www.bellevuestrawberryfestival.org/HOME.asp",
     "city": "Bellevue, WA",
+    "state": "WA",
     "coords": {
         "lat": 47.617503,
         "lon": -122.123983
@@ -169,6 +180,7 @@
     "eventId": "012",
     "url": "http://www.pnwmushroomfest.org/",
     "city": "Lacey, WA",
+    "state": "WA",
     "coords": {
         "lat": 47.044947,
         "lon": -122.763108
@@ -184,6 +196,7 @@
     "eventId": "013",
     "url": "http://www.crabfestival.org/",
     "city": "Port Angeles, WA",
+    "state": "WA",
     "coords": {
         "lat": 48.119398,
         "lon": -123.430732
@@ -199,6 +212,7 @@
     "eventId": "014",
     "url": "http://www.brinnonshrimpfest.org/",
     "city": "Brinnon, WA",
+    "state": "WA",
     "coords": {
         "lat": 47.7346762,
         "lon": -122.881607
@@ -214,6 +228,7 @@
     "eventId": "015",
     "url": "http://chocolateonthebeachfestival.com/",
     "city": "Aloha, Moclips, Copalis Beach, Copalis Crossing, Pacific Beach, and Seabrook, WA",
+    "state": "WA",
     "coords": {
         "lat": 47.2144144,
         "lon": -124.2055585
@@ -229,6 +244,7 @@
     "eventId": "016",
     "url": "http://www.nwgarlicfestival.org/",
     "city": "Ocean Park, WA",
+    "state": "WA",
     "coords": {
         "lat": 46.4885498,
         "lon": -124.0355898
@@ -244,6 +260,7 @@
     "eventId": "017",
     "url": "http://www.sweetonions.org/",
     "city": "Walla Walla, WA",
+    "state": "WA",
     "coords": {
         "lat": 46.068626,
         "lon": -118.336651
@@ -259,6 +276,7 @@
     "eventId": "018",
     "url": "http://www.chehalisgarlicfest.com/",
     "city": "Chehalis, WA",
+    "state": "WA",
     "coords": {
         "lat": 46.6919535,
         "lon": -122.9581764
@@ -274,6 +292,7 @@
     "eventId": "019",
     "url": "https://mossyrockfestivals.org/",
     "city": "Mossyrock, WA",
+    "state": "WA",
     "coords": {
         "lat": 46.529421,
         "lon": -122.485441
@@ -289,6 +308,7 @@
     "eventId": "020",
     "url": "http://www.everettsausagefest.com/",
     "city": "Everett, WA",
+    "state": "WA",
     "coords": {
         "lat": 47.982684,
         "lon": -122.193455
@@ -304,6 +324,7 @@
     "eventId": "021",
     "url": "http://www.stbens.net/news-events/wurst-festival/",
     "city": "Seattle, WA",
+    "state": "WA",
     "coords": {
         "lat": 47.663826,
         "lon": -122.337005
@@ -319,6 +340,7 @@
     "eventId": "022",
     "url": "http://www.onalaskaalliance.org/apple-harvest-festival.html",
     "city": "Onalaska, WA",
+    "state": "WA",
     "coords": {
         "lat": 46.575642,
         "lon": -122.719213
@@ -334,6 +356,7 @@
     "eventId": "023",
     "url": "http://www.pelindabalavender.com/lavender-festival-a/282.htm",
     "city": "Friday Harbor, WA",
+    "state": "WA",
     "coords": {
         "lat": 48.508755,
         "lon": -123.099144
@@ -349,6 +372,7 @@
     "eventId": "024",
     "url": "https://burlington-chamber.com/community-events/berry-dairy-days/",
     "city": "Burlington, WA",
+    "state": "WA",
     "coords": {
         "lat": 48.475209,
         "lon": -122.329046
@@ -364,11 +388,12 @@
     "eventId": "025",
     "url": "http://www.maryfest.org/",
     "city": "Marysville, WA",
+    "state": "WA",
     "coords": {
         "lat": 48.051809,
         "lon": -122.173150
       },
-    "dateStart": "2017-06-16",
+    "dateStart": "2017-06-10",
     "dateEnd": "2017-06-18",
     "datesCertain": false,
     "type": "fruit",
@@ -379,6 +404,7 @@
     "eventId": "027",
     "url": "https://burienwa.gov/index.aspx?NID=773",
     "city": "Burien, WA",
+    "state": "WA",
     "coords": {
         "lat": 47.466771,
         "lon": -122.351290
@@ -394,6 +420,7 @@
     "eventId": "028",
     "url": "http://thepenncovemusselsfestival.com/",
     "city": "Coupeville, WA",
+    "state": "WA",
     "coords": {
         "lat": 48.220592,
         "lon": -122.688082
@@ -409,6 +436,7 @@
     "eventId": "029",
     "url": "http://www.deutschesfest.com/",
     "city": "Odessa, WA",
+    "state": "WA",
     "coords": {
         "lat": 47.335971,
         "lon": -118.690442
@@ -424,6 +452,7 @@
     "eventId": "030",
     "url": "http://kcdays.com/",
     "city": "Kent, WA",
+    "state": "WA",
     "coords": {
         "lat": 47.386601,
         "lon": -122.237388
@@ -439,6 +468,7 @@
     "eventId": "031",
     "url": "http://www.tacomaevents.com/pumpkin-festival.html",
     "city": "Orting, WA",
+    "state": "WA",
     "coords": {
         "lat": 47.097281,
         "lon": -122.203913
@@ -454,6 +484,7 @@
     "eventId": "032",
     "url": "http://www.vashonchamber.com/pages/vashon-island-strawberry-festival",
     "city": "Vashon Island, WA",
+    "state": "WA",
     "coords": {
         "lat": 47.452316,
         "lon": -122.460433
@@ -469,6 +500,7 @@
     "eventId": "026",
     "url": "http://skagitriverfest.org/",
     "city": "Mount Vernon, WA",
+    "state": "WA",
     "coords": {
         "lat": 48.419387,
         "lon": -122.343712
@@ -478,5 +510,37 @@
     "datesCertain": true,
     "type": "seafood",
     "desc": "Established in 2012, the Skagit River Salmon Festival is a 501(c)(3) nonprofit organization, whose purpose is to inspire conservation of the Skagit watershed’s incredible resources through a community celebration showcasing the Skagit River, its rich history, and vast natural and cultural resources. "
+  },
+  {
+    "name": "Viking Fest",
+    "eventId": "033",
+    "url": "http://www.vikingfest.org/",
+    "city": "Poulsbo, WA",
+    "state": "WA",
+    "coords": {
+        "lat": 47.734414,
+        "lon": -122.646110
+      },
+    "dateStart": "2017-05-19",
+    "dateEnd": "2017-05-21",
+    "datesCertain": true,
+    "type": "cultural",
+    "desc": "Poulsbo’s Viking Fest is a celebration of Norway’s Constitution Day of May 17 (in Norwegian, “Syttende mai”). In Norway, it is a festival of flags and colorful processions, where children walk to the music of marching bands. Traditional Norwegian costumes are a prominent and common part of the celebrations. The festivities last from early morning to late at night. Viking Fest also features a donut eating contest and a lutefisk eating contest!"
+  },
+  {
+    "name": "University District Street Fair",
+    "eventId": "034",
+    "url": "http://udistrictstreetfair.org/",
+    "city": "Seattle, WA",
+    "state": "WA",
+    "coords": {
+        "lat": 47.661291,
+        "lon": -122.313126
+      },
+    "dateStart": "2017-05-20",
+    "dateEnd": "2017-05-21",
+    "datesCertain": true,
+    "type": "general",
+    "desc": "The U District StreetFair is the longest running festival of its kind in the nation. In 1970, community leaders established the StreetFair to heal our community after protests, street riots, and violence disrupted the community. Originally a blanket-vending event with lots of free live music, the U District StreetFair has developed into a regional event that features products that are hand-made by individual artists and craftsmen in the USA. In celebration of the international flavor of our community, we invite food vendors to participate along with our many local restaurants to supply an around-the-world food experience."
   }
 ]
