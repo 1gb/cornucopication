@@ -1,10 +1,13 @@
+
 $(document).ready(function() {
 
   var events = [];
   var locations = [];
+  var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  var currentMonth = moment().month() + 1;
+  var now = parseInt(moment().format('DDD'));
 
   $.getJSON( "data/festivals.json", function( data ) {
-
     $.each( data, function() {
       events.push({
         name: this.name,
@@ -15,8 +18,9 @@ $(document).ready(function() {
         dateEndO: this.dateEnd,
         dateStart: moment(this.dateStart).format('MMM Do'),
         dateEnd: moment(this.dateEnd).format('MMM Do'),
-        dayOfYear: moment(this.dateStart).format('DDD'),
-        dayOfYearEnd: moment(this.dateEnd).format('DDD'),
+        dayOfYear: parseInt(moment(this.dateStart).format('DDD')),
+        dayOfYearEnd: parseInt(moment(this.dateEnd).format('DDD')),
+        numericMonth: moment(this.dateEnd).month() + 1,
         month: moment(this.dateStart).format('MM'),
         monthString: moment(this.dateStart).format('MMMM'),
         datesCertain: this.datesCertain,
@@ -38,10 +42,11 @@ $(document).ready(function() {
     });
     sortByMonth();
     sortFromToday();
+    sortMonths();
+    additionalCurrentMonth();
+    createMonths();
     format();
   });
-
-  var now = moment().format('DDD');
 
   var sortByMonth = function() {
     // put the events in order from beginning of year to end of year
@@ -51,16 +56,60 @@ $(document).ready(function() {
   };
 
   var sortFromToday = function() {
+    var counter = 0;
+    var tempArray = [];
     // rearrange them against today's date to show the next upcoming event first
-    for (i = 0; i < events.length - 1; i++) {
-      if (parseInt(events[i].dayOfYearEnd) < now) {
-        events.push(events.shift());
+    for (i = 0; i < events.length; i++) {
+      if (events[i].dayOfYearEnd <= now) {
+        counter++;
+      } else if (events[i].dayOfYearEnd > now ){
+        tempArray = events.splice(0, counter);
+        events = events.concat(tempArray);
+        return;
+      }
+    }
+  };
+
+  var sortMonths = function() {
+    var tempArray;
+    if (currentMonth === events[0].numericMonth) {
+      tempArray = months.splice(0, currentMonth - 1);
+      months = months.concat(tempArray);
+    } else {
+      tempArray = months.splice(0, events[0].numericMonth - 1);
+      months = months.concat(tempArray);
+    }
+  };
+
+  //Check if the current month has past events, if so, adds another month to end.
+  var additionalCurrentMonth = function() {
+    if (events[0].month === events[events.length - 1].month) {
+      months.push(months[0]);
+    }
+  };
+
+  var createMonths = function() {
+    for (i = 0; i < months.length; i++) {
+      //if the last month is same as first month... add it with an id of month + '2'
+      if (i === 12) {
+        $('#date-list').append(
+          '<div class="month-group" id="' + months[i].toLowerCase() + '2' + '">' +
+            '<h3 class="sub-heading">' + months[i] + '</h3>' +
+            '<ul class="festival-list">' +
+          '</div>');
+      } else {
+        $('#date-list').append(
+          '<div class="month-group" id="' + months[i].toLowerCase() + '">' +
+            '<h3 class="sub-heading">' + months[i] + '</h3>' +
+            '<ul class="festival-list">' +
+          '</div>');
       }
     }
   };
 
   var format = function() {
     events.forEach( function(element) {
+      // console.log(element.name + ' ' + element. );
       var thisMonth = element.monthString.toLowerCase();
       var downIcon = '<span class="downIcon"><i class="fa fa-angle-double-down" aria-hidden="true"></i></span>';
       var eventUrl = '<div class="event-url"><a href="' + element.url + '" target="_blank">Visit the ' + element.name + ' Website</a></div>';
@@ -69,20 +118,16 @@ $(document).ready(function() {
         '&location=' + element.city + '&sf=true&output=xml" target="_blank">' +
         '<i class="fa fa-calendar" aria-hidden="true"></i>  Add to Google Calendar</a></div>';
 
-      // If a month section doesn't exist, create one
-      if ( document.getElementById(thisMonth) === null ) {
-        $('#date-list').append(
-          '<div class="month-group" id="' + thisMonth + '">' +
-            '<h3 class="sub-heading">' + element.monthString + '</h3>' +
-            '<ul class="festival-list">' +
-              '<li class="item collapsed" data-toggle="collapse" data-target="#' + element.eventId + '">' +
-                '<div class="festival-name">' + downIcon + element.name + '</div>' +
-                '<div class="entry">' +
-                  '<span class="date">' + element.dateStart + ' - ' + element.dateEnd + '</span>' + ' • ' + element.city + calendar +
-                  '<div id="' + element.eventId + '" class="single-event collapse">' + element.desc + eventUrl + '</div>' +
-                '</div>' +
-              '</li>' +
-          '</div>');
+      // If the month is split, add to second month
+      if (thisMonth === months[0].toLowerCase() && element.dayOfYearEnd < now) {
+        $('#' + thisMonth + '2' + ' .festival-list').append(
+          '<li class="item collapsed" data-toggle="collapse" data-target="#' + element.eventId + '">' +
+            '<div class="festival-name">' + downIcon + element.name + '</div>' +
+            '<div class="entry">' +
+              '<span class="date">' + element.dateStart + ' - ' + element.dateEnd + '</span> • ' + element.city + calendar +
+              '<div id="' + element.eventId + '" class="single-event collapse">' + element.desc + eventUrl + '</div>' +
+            '</div>' +
+          '</li>');
       } else {
         $('#' + thisMonth + ' .festival-list').append(
           '<li class="item collapsed" data-toggle="collapse" data-target="#' + element.eventId + '">' +
