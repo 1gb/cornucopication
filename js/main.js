@@ -46,6 +46,7 @@ $(document).ready(function() {
     additionalCurrentMonth();
     createMonths();
     format();
+    removeEmptyMonths();
   });
 
   var sortByMonth = function() {
@@ -139,6 +140,12 @@ $(document).ready(function() {
           '</li>');
       }
     });
+  };
+
+  var removeEmptyMonths = function() {
+    $('#november').remove();
+    $('#december').remove();
+    $('#january').remove();
   };
 
   // Tab functionality

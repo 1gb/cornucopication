@@ -542,5 +542,101 @@
     "datesCertain": true,
     "type": "general",
     "desc": "The U District StreetFair is the longest running festival of its kind in the nation. In 1970, community leaders established the StreetFair to heal our community after protests, street riots, and violence disrupted the community. Originally a blanket-vending event with lots of free live music, the U District StreetFair has developed into a regional event that features products that are hand-made by individual artists and craftsmen in the USA. In celebration of the international flavor of our community, we invite food vendors to participate along with our many local restaurants to supply an around-the-world food experience."
+  },
+  {
+    "name": "Longview Squirrel Fest",
+    "eventId": "035",
+    "url": "http://lvsquirrelfest.com/",
+    "city": "Longview, WA",
+    "state": "WA",
+    "coords": {
+        "lat": 46.143022,
+        "lon": -122.939523
+      },
+    "dateStart": "2017-08-19",
+    "dateEnd": "2017-08-19",
+    "datesCertain": true,
+    "type": "animal",
+    "desc": "The Longview Squirrel Fest is a one-day festival in honor or our furry friends. A wide range of vendors and entertainment will be present to make the day as fun and active, or relaxing as you would want it. The kids will enjoy fun things like a tight rope, juggling, diablo, flower-sticks, pole balance, walking globe, stilts, Poi balls, unicycle, plate spin and much more!!! Everyone can satisfy their craving for pizza, hot dogs and cotton candy, clowns, tee-shirt cannons, demonstrations, arts and crafts, and even giant squirrels."
+  },
+  {
+    "name": "Mount Vernon Tulip Festival Street Fair",
+    "eventId": "036",
+    "url": "https://www.mountvernondowntown.org/events/tulipfest.html",
+    "city": "Mount Vernon, WA",
+    "state": "WA",
+    "coords": {
+        "lat": 48.419452,
+        "lon": -122.337825
+      },
+    "dateStart": "2017-04-21",
+    "dateEnd": "2017-04-23",
+    "datesCertain": true,
+    "type": "flower",
+    "desc": "This annual event is part of the month long Tulip Festival. The Street Fair runs Friday through Sunday, attracting vendors, artists, crafts people and visitors far and wide."
+  },
+  {
+    "name": "Colorama Festival",
+    "eventId": "037",
+    "url": "http://www.grandcouleedam.org/colorama.html",
+    "city": "Grand Coulee, WA",
+    "state": "WA",
+    "coords": {
+        "lat": 47.937155,
+        "lon": -119.018571
+      },
+    "dateStart": "2017-05-12",
+    "dateEnd": "2017-05-14",
+    "datesCertain": true,
+    "type": "other",
+    "desc": "This festival is a hometown favorite and draws people from the Grand Coulee Dam Area and the surrounding towns as well. It is a popular event for former residents of the area to return to year after year. The festival is held annually on Mother's Day weekend in beautiful North Dam Park (between Grand Coulee and Electric City). Activities for the weekend include a carnival, two Pro-West Rodeos, a Color Run, a parade down main street, arts and crafts vendors, food vendors, a beer garden, and a prize button raffle drawing with grand prizes."
+  },
+  {
+    "name": "Bigfoot Bash at Logtoberfest",
+    "eventId": "038",
+    "url": "http://skamaniawacoc.weblinkconnect.com/events/Bigfoot-Bash-at-Logtoberfest-3110/details",
+    "city": "Carson, WA",
+    "state": "WA",
+    "coords": {
+        "lat": 45.714128,
+        "lon": -121.769325
+      },
+    "dateStart": "2017-10-07",
+    "dateEnd": "2017-10-07",
+    "datesCertain": true,
+    "type": "other",
+    "desc": "Celebrating the culture of Carson - Sasquatch and logging.  This family friendly event includes live Country music, sasquatch stories, regional craft beer, wine and cider, local food and craft vendors, logging equipment demonstrations and more!  Free admission. "
+  },
+  {
+    "name": "West Coast Giant Pumpkin Regatta",
+    "eventId": "039",
+    "url": "https://www.tualatinoregon.gov/pumpkinregatta",
+    "city": "Tualatin, OR",
+    "state": "OR",
+    "coords": {
+        "lat": 45.382771,
+        "lon": -122.761898
+      },
+    "dateStart": "2017-10-21",
+    "dateEnd": "2017-10-21",
+    "datesCertain": true,
+    "type": "fruit",
+    "desc": "If you’ve never been to the West Coast Giant Pumpkin Regatta odds are you’ve never seen anyone sit inside a giant pumpkin let alone race one across a lake dressed as a superhero or the tooth fairy. the award-winning West Coast Giant Pumpkin Regatta has become Oregon's best October event. Spectators come from not only  the Pacific Northwest but also from all over the United States and Canada. Admission to the festival is free as are most of the activities. Food and souvenirs will be available for purchase."
+  },
+  {
+    "name": "Mushroom Festival",
+    "eventId": "040",
+    "url": "http://www.mountpisgaharboretum.com/festivals-events/2016-mushroom-festival/",
+    "city": "Eugene, OR",
+    "state": "OR",
+    "coords": {
+        "lat": 44.007680,
+        "lon": -122.980761
+      },
+    "dateStart": "2017-10-29",
+    "dateEnd": "2017-10-29",
+    "datesCertain": true,
+    "type": "vegetable",
+    "desc": "The Mushroom Festival is a family-friendly all-day event with something for everyone to enjoy. Features: A huge mushroom exhibit where you can learn about over 300 local species, live music on our stage from 10am – 5pm, hay rides and guided nature walks around our beautiful site, a kids booth with face painting and nature crafts for children, culinary demonstrations featuring delicious mushroom dishes, the Scarecrow Contest where you can vote for your favorites in several categories. In addition, the festival brings in dozens of booths and vendors for your enjoyment. They feature food and drink, arts and crafts, mushroom vendors, a variety of plant sellers, and local non-profits that support nature education and habitat restoration."
   }
 ]
