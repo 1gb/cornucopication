@@ -143,9 +143,12 @@ $(document).ready(function() {
   };
 
   var removeEmptyMonths = function() {
-    $('#november').remove();
-    $('#december').remove();
-    $('#january').remove();
+    months.forEach(function(month) {
+      month = month.toLowerCase();
+      if ($('#' + month + ' ul').is(':empty')) {
+        $('#' + month).remove();
+      }
+    });
   };
 
   // Tab functionality
