@@ -108,6 +108,9 @@ $(document).ready(function() {
     }
   };
 
+  var datesCertain = '';
+  var datesUncertain = '<span class="dates-uncertain">Unverified</span>';
+
   var format = function() {
     events.forEach( function(element) {
       // console.log(element.name + ' ' + element. );
@@ -125,7 +128,7 @@ $(document).ready(function() {
           '<li class="item collapsed" data-toggle="collapse" data-target="#' + element.eventId + '">' +
             '<div class="festival-name">' + downIcon + element.name + '</div>' +
             '<div class="entry">' +
-              '<span class="date">' + element.dateStart + ' - ' + element.dateEnd + '</span> • ' + element.city + calendar +
+              '<span class="date">' + element.dateStart + ' - ' + element.dateEnd + ' ' + (element.datesCertain === true ? datesCertain : datesUncertain) + '</span> • ' + element.city + calendar +
               '<div id="' + element.eventId + '" class="single-event collapse">' + element.desc + eventUrl + '</div>' +
             '</div>' +
           '</li>');
@@ -134,7 +137,7 @@ $(document).ready(function() {
           '<li class="item collapsed" data-toggle="collapse" data-target="#' + element.eventId + '">' +
             '<div class="festival-name">' + downIcon + element.name + '</div>' +
             '<div class="entry">' +
-              '<span class="date">' + element.dateStart + ' - ' + element.dateEnd + '</span> • ' + element.city + calendar +
+              '<span class="date">' + element.dateStart + ' - ' + element.dateEnd + ' ' + (element.datesCertain === true ? datesCertain : datesUncertain) + '</span> • ' + element.city + calendar +
               '<div id="' + element.eventId + '" class="single-event collapse">' + element.desc + eventUrl + '</div>' +
             '</div>' +
           '</li>');

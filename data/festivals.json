@@ -9,9 +9,9 @@
         "lat": 46.349134,
         "lon": -124.0567037
       },
-    "dateStart": "2017-04-29",
-    "dateEnd": "2017-04-30",
-    "datesCertain": true,
+    "dateStart": "2018-04-29",
+    "dateEnd": "2018-04-30",
+    "datesCertain": false,
     "type": "seafood",
     "desc": "The event that helped put the Long Beach Peninsula on the map in the 1940s features free razor clam digging lessons, contests, music, an annual chowder cook off and a giant clam fry."
   },
@@ -25,9 +25,9 @@
         "lat": 47.5655493,
         "lon": -122.6276653
       },
-    "dateStart": "2017-09-02",
-    "dateEnd": "2017-09-04",
-    "datesCertain": true,
+    "dateStart": "2018-09-02",
+    "dateEnd": "2018-09-04",
+    "datesCertain": false,
     "type": "fruit",
     "desc": "The Bremerton Blackberry Festival is held each Labor Day weekend, rain or shine on the picturesque Bremerton Boardwalk. Enjoy food and drink from 130 food, arts & crafts vendors. Be sure to enjoy one or all of the growing list of blackberry treats available at the festival including blackberry “slugs,” blackberry pies, blackberry sodas, blackberry beer and blackberry wine!"
   },
@@ -41,8 +41,8 @@
         "lat": 46.7292311,
         "lon": -117.1736237
       },
-    "dateStart": "2017-08-18",
-    "dateEnd": "2017-08-19",
+    "dateStart": "2018-08-17",
+    "dateEnd": "2018-08-18",
     "datesCertain": true,
     "type": "vegetable",
     "desc": "Since its beginning in 1989, the National Lentil Festival has brought national attention to Pullman. The Palouse region of farmlands in Eastern Washington and Northern Idaho has a reputation for producing the highest quality lentils in the United States. We think that is worth celebrating."
@@ -57,25 +57,25 @@
         "lat": 45.7182243,
         "lon": -121.4716687
       },
-    "dateStart": "2017-09-08",
-    "dateEnd": "2017-09-10",
-    "datesCertain": true,
+    "dateStart": "2018-09-08",
+    "dateEnd": "2018-09-10",
+    "datesCertain": false,
     "type": "fruit",
     "desc": "Since 1962. A celebration of the varied natural and cultural resources of the Mount Adams country. Parade, entertainment, carnival, food and craft booths and of course huckleberries."
   },
   {
     "name": "Northwest Raspberry Festival",
     "eventId": "005",
-    "url": "http://lynden.org/northwest-raspberry-festival-july-14-15-2017/",
+    "url": "http://lynden.org/northwest-raspberry-festival/",
     "city": "Lynden, WA",
     "state": "WA",
     "coords": {
         "lat": 48.9427005,
         "lon": -122.4564467
       },
-    "dateStart": "2017-07-14",
-    "dateEnd": "2017-07-15",
-    "datesCertain": true,
+    "dateStart": "2018-07-14",
+    "dateEnd": "2018-07-15",
+    "datesCertain": false,
     "type": "fruit",
     "desc": "Come join the Whatcom County community is celebrating and enjoying the greatest raspberry producing region in the world! We are sure you will have a “berry” good time!"
   },
@@ -89,8 +89,8 @@
         "lat": 47.533874,
         "lon": -122.036310
       },
-    "dateStart": "2017-10-01",
-    "dateEnd": "2017-10-02",
+    "dateStart": "2018-10-01",
+    "dateEnd": "2018-10-02",
     "datesCertain": false,
     "type": "seafood",
     "desc": "The Issaquah Salmon Days is a two-day award-winning festival held in Issaquah, Washington, United States, held from 10am to 6pm on both Saturday and Sunday of the first full weekend of October."
@@ -105,8 +105,8 @@
         "lat": 47.2023932,
         "lon": -122.244267
       },
-    "dateStart": "2017-07-16",
-    "dateEnd": "2017-07-17",
+    "dateStart": "2018-07-15",
+    "dateEnd": "2018-07-16",
     "datesCertain": false,
     "type": "fruit",
     "desc": "Sumner’s Rhubarb Pie Festival is six weeks of summer fun, including music, sports, plays, classic cars and more.  Be sure to make one or all events for a fun summer in Sumner."
@@ -121,8 +121,8 @@
         "lat": 47.423011,
         "lon": -120.3149929
       },
-    "dateStart": "2017-04-27",
-    "dateEnd": "2017-05-07",
+    "dateStart": "2018-04-26",
+    "dateEnd": "2018-05-06",
     "datesCertain": true,
     "type": "fruit",
     "desc": "The Washington State Apple Blossom Festival now draws thousands of visitors from around the world during the last weekend in April and the first weekend in May. The 11-day festival includes a Carnival, Golf Tournament, Food Fair, Entertainment, Youth Parade, Youth Day, Art 4 Kidz, Arts & Crafts Fair, and Grand Parade"
@@ -137,8 +137,8 @@
         "lat": 46.8590383,
         "lon": -124.0995116
       },
-    "dateStart": "2017-10-14",
-    "dateEnd": "2017-10-15",
+    "dateStart": "2018-10-13",
+    "dateEnd": "2018-10-14",
     "datesCertain": true,
     "type": "fruit",
     "desc": "Bog tours, Cranberry cook off, and firelight parade"
@@ -153,8 +153,8 @@
         "lat": 47.2378416,
         "lon": -123.1449564
       },
-    "dateStart": "2017-10-01",
-    "dateEnd": "2017-10-02",
+    "dateStart": "2018-10-08",
+    "dateEnd": "2018-10-08",
     "datesCertain": false,
     "type": "seafood",
     "desc": "Oysters, wines, microbrews, live music and so much more come together for two days every year on the first weekend in October. Hosted by the Shelton Skookum Rotary Club Foundation and attended by thousands, OysterFest is home to the West Coast Oyster Shucking Championships and is Washington State’s official seafood festival. The festival also features a popular cook-off, hands-on water quality exhibits, and is itself a giant a food pavilion with nearly 100 unique items on the menu: BBQ oysters, fritters, spring rolls, garlic shrimp, fresh cider and so much more. Better yet, your culinary adventure supports about 100 local non-profit service clubs and organizations, as well as funding scholarships and local community improvement projects. What hidden pearls will you find at OysterFest?"
@@ -169,8 +169,8 @@
         "lat": 47.617503,
         "lon": -122.123983
       },
-    "dateStart": "2017-06-24",
-    "dateEnd": "2017-06-25",
+    "dateStart": "2018-06-24",
+    "dateEnd": "2018-06-25",
     "datesCertain": true,
     "type": "fruit",
     "desc": "The festival is a revitialization of an old Bellevue tradition, dating back to when strawberry farming was one of the region's most famous activities. The festival has been held in various places around Bellevue, starting (in its recent incarnation) on Main Street in Old Bellevue, moving to the downtown park, and most recently in the Crossroads Park. We celebrate Strawberries and community on the fourth weekend of June. Entertainment, an auto show, vendors, food, and family fun are all highly visible parts of the festivities. And, you will very likely see a strawberry or two (shortcake eating contests, strawberry flats, chocolate covered strawberries, and much more)."
@@ -187,7 +187,7 @@
       },
     "dateStart": "2017-07-29",
     "dateEnd": "2017-07-30",
-    "datesCertain": true,
+    "datesCertain": false,
     "type": "vegetable",
     "desc": "Since 2008, the Pacific Northwest Mushroom Festival has been a Rotary and community event that raises money for charity. The purpose and mission of the festival is to promote the mushroom, educate consumers about the health benefits of mushrooms and to promote tourism in the Lacey, Washington and Thurston County area, all while financially supporting the many charitable activities of the Hawks Prairie Rotary club."
   },
@@ -201,8 +201,8 @@
         "lat": 48.119398,
         "lon": -123.430732
       },
-    "dateStart": "2017-10-06",
-    "dateEnd": "2017-10-08",
+    "dateStart": "2018-10-05",
+    "dateEnd": "2018-10-07",
     "datesCertain": true,
     "type": "seafood",
     "desc": "The festival celebrates not only the aquaculture, agriculture and maritime traditions of the breathtaking Olympic Peninsula, but brings food, art, music, Native American activities, and children’s events into one spectacular 3-day event for everyone!"
@@ -217,8 +217,8 @@
         "lat": 47.7346762,
         "lon": -122.881607
       },
-    "dateStart": "2017-05-27",
-    "dateEnd": "2017-05-28",
+    "dateStart": "2017-05-26",
+    "dateEnd": "2017-05-27",
     "datesCertain": true,
     "type": "seafood",
     "desc": "The Brinnon ShrimpFest is a weekend festival located just north of Brinnon celebrating Hood Canal Spot Shrimp and other local seafood. It lures hungry shrimpers from all over the Northwest to fish Hood Canal’s rich waters. We feature craft booths, food booths, belt sander races, exhibits, live music, kids activities and so much more."
@@ -233,9 +233,9 @@
         "lat": 47.2144144,
         "lon": -124.2055585
       },
-    "dateStart": "2018-02-23",
-    "dateEnd": "2018-02-26",
-    "datesCertain": false,
+    "dateStart": "2018-02-22",
+    "dateEnd": "2018-02-25",
+    "datesCertain": true,
     "type": "dessert",
     "desc": "This is a fun, family festival offering something for every chocolate lover!  There are chocolate vendors, artists, and crafters.  You can attend a cooking class or enter your favorite recipe in the recipe contest.  How about entering an eating contest?  You can do all this and so much more.  Attendees will find chocolate that is gluten free, dairy free, vegan, organic, fair trade, raw and even healthy treats for your favorite furry friends."
   },
@@ -249,9 +249,9 @@
         "lat": 46.4885498,
         "lon": -124.0355898
       },
-    "dateStart": "2017-06-17",
-    "dateEnd": "2017-06-18",
-    "datesCertain": true,
+    "dateStart": "2018-06-17",
+    "dateEnd": "2018-06-18",
+    "datesCertain": false,
     "type": "vegetable",
     "desc": "Celebrate the passion for this exalted bulb with the faithful throngs who make their annual pilgrimage to the NW Garlic Festival which is held each June in the seaside community of Ocean Park, Washington, located on the Long Beach Peninsula. This GARLIC Olympics of Gastronomy is not held for the region's GARLIC growing ability. This Festival was born out of love of great, GARLIC laden cuisine!"
   },
@@ -265,9 +265,9 @@
         "lat": 46.068626,
         "lon": -118.336651
       },
-    "dateStart": "2017-06-17",
-    "dateEnd": "2017-06-18",
-    "datesCertain": true,
+    "dateStart": "2018-06-17",
+    "dateEnd": "2018-06-18",
+    "datesCertain": false,
     "type": "vegetable",
     "desc": "When a French soldier brought sweet onion seeds to Walla Walla in the late 1800s, he discovered that this valley’s abundance of water and rich vegetation was the perfect environment for cultivating this crop.  Ever since then, sweet onions have been produced here as a specialty vegetable crop, loved by both locals and visitors alike.  The annual Walla Walla Sweet Onion Festival honors this significant crop through music, games, foods, and much more!  Discover everything there is to do during this exciting weekend and start making your plans to attend today!"
   },
@@ -281,8 +281,8 @@
         "lat": 46.6919535,
         "lon": -122.9581764
       },
-    "dateStart": "2017-08-26",
-    "dateEnd": "2017-08-28",
+    "dateStart": "2018-08-25",
+    "dateEnd": "2018-08-27",
     "datesCertain": false,
     "type": "vegetable",
     "desc": "Garlic Themed Cuisine, Artisan & Craft Vendors, Kids Activities, Chef Demonstrations"
@@ -297,9 +297,9 @@
         "lat": 46.529421,
         "lon": -122.485441
       },
-    "dateStart": "2017-08-04",
-    "dateEnd": "2017-08-06",
-    "datesCertain": true,
+    "dateStart": "2018-08-04",
+    "dateEnd": "2018-08-06",
+    "datesCertain": false,
     "type": "fruit",
     "desc": "The Mossyrock Blueberry Festival is a community-led event coordinated by the Mossyrock Area Action League (MAAL), a grass roots, 501(c)3 non-profit organization working on community asset building, economic development, and poverty reduction in East Lewis County, Washington."
   },
@@ -313,9 +313,9 @@
         "lat": 47.982684,
         "lon": -122.193455
       },
-    "dateStart": "2017-09-29",
-    "dateEnd": "2017-10-01",
-    "datesCertain": true,
+    "dateStart": "2018-09-29",
+    "dateEnd": "2018-10-01",
+    "datesCertain": false,
     "type": "meat",
     "desc": "The Everett Sausage Festival is a family-oriented weekend fair centered around a Bavarian theme. From our traditional Bavarian Dinner to a variety of food booths, children's games, the Family Entertainment Stage, bingo, carnival, and Bavarian Beer Garden and Stage, there is something for everyone."
   },
@@ -329,8 +329,8 @@
         "lat": 47.663826,
         "lon": -122.337005
       },
-    "dateStart": "2017-09-16",
-    "dateEnd": "2017-09-17",
+    "dateStart": "2018-09-16",
+    "dateEnd": "2018-09-17",
     "datesCertain": false,
     "type": "meat",
     "desc": "The Great Wallingford Wurst Festival is an Octoberfest style end-of-summer celebration that takes place in September at St. Benedict School. Now in its 33rd year, the festival started as a small fundraiser for the school. Today the festival brings more than 10,000 visitors to the Wallingford neighborhood in one weekend. The Wurst Festival features rides, an array of delicious foods, games for kids of all ages, craft booths, homemade sweets, a book sale, a Biergarten, a raffle, plus live entertainment on an outdoor stage."
@@ -345,8 +345,8 @@
         "lat": 46.575642,
         "lon": -122.719213
       },
-    "dateStart": "2017-09-30",
-    "dateEnd": "2017-10-02",
+    "dateStart": "2018-10-06",
+    "dateEnd": "2018-10-08",
     "datesCertain": false,
     "type": "fruit",
     "desc": "The Onalaska Apple Harvest Festival is a wonderful opportunity to celebrate the diversity found in Onalaska. The mission of the Onalaska Alliance involves building our local community, and we feel that this event does just that! Our festival started out small, but now we are struggling to contain the awesomeness!"
@@ -361,9 +361,9 @@
         "lat": 48.508755,
         "lon": -123.099144
       },
-    "dateStart": "2017-07-15",
-    "dateEnd": "2017-07-16",
-    "datesCertain": true,
+    "dateStart": "2018-07-15",
+    "dateEnd": "2018-07-16",
+    "datesCertain": false,
     "type": "flower",
     "desc": "The annual San Juan Island Lavender Festival, sponsored by and hosted at Pelindaba Lavender Farm the third week of every July. It’s free, fragrant and colorful (well, purple, anyway). Two days of all things lavender: tours of organic fields, drying barn and distillery, commercial kitchen and bakery, and the production center where over 240 products are handcrafted; craft workshops, cooking demos, self-harvesting, picnics in the lavender fields, local music, etc. Lavender fun for the whole family. "
   },
@@ -377,9 +377,9 @@
         "lat": 48.475209,
         "lon": -122.329046
       },
-    "dateStart": "2017-06-16",
-    "dateEnd": "2017-06-18",
-    "datesCertain": true,
+    "dateStart": "2018-06-16",
+    "dateEnd": "2018-06-18",
+    "datesCertain": false,
     "type": "fruit",
     "desc": "On the third weekend in June, Burlington will explode into a delicious and exciting place to be. Fresh local strawberry shortcake, spectacular fireworks show, fabulous parades, Kiwanis Salmon BBQ, entertainment stage with live music, nostalgic Berry Cool Car Show and more!"
   },
@@ -393,8 +393,8 @@
         "lat": 48.051809,
         "lon": -122.173150
       },
-    "dateStart": "2017-06-10",
-    "dateEnd": "2017-06-18",
+    "dateStart": "2018-06-10",
+    "dateEnd": "2018-06-18",
     "datesCertain": false,
     "type": "fruit",
     "desc": "Endless fun and entertainment painting the town red - red with strawberries, that is - for this annual celebration of the ripe, red berry that earned Marysville the moniker of The Strawberry City."
@@ -409,8 +409,8 @@
         "lat": 47.466771,
         "lon": -122.351290
       },
-    "dateStart": "2017-06-17",
-    "dateEnd": "2017-06-18",
+    "dateStart": "2018-06-17",
+    "dateEnd": "2018-06-18",
     "datesCertain": false,
     "type": "fruit",
     "desc": "Whether you are new to the area or a long time resident, the Wild Strawberry Festival is a tradition like no other. A family friendly annual event with music, games and activities for the kids, artisan craft vendors and the center piece of the event delicious strawberry shortcake. There is so much to see and do all weekend."
@@ -441,9 +441,9 @@
         "lat": 47.335971,
         "lon": -118.690442
       },
-    "dateStart": "2017-09-15",
-    "dateEnd": "2017-09-17",
-    "datesCertain": true,
+    "dateStart": "2018-09-15",
+    "dateEnd": "2018-09-17",
+    "datesCertain": false,
     "type": "other",
     "desc": "German music plays its way into your ears, sausage and strudel tease your appetite, and the fun, excitement, and friendliness capture your heart. This four day event is more than just a festival, it's an experience! Every third full weekend in September, the small community of Odessa attracts thousands of visitors and adventurers to its famous Deutschesfest. Sporting an authentic local German Band - The Oom Pas & Mas, German Food, Crafts, and many exciting events, Odessa has made a name for itself by taking pride in its German Heritage. All the preparation for Deutschesfest is done by volunteers throughout the town."
   },
@@ -457,9 +457,9 @@
         "lat": 47.386601,
         "lon": -122.237388
       },
-    "dateStart": "2017-07-14",
-    "dateEnd": "2017-07-16",
-    "datesCertain": true,
+    "dateStart": "2018-07-14",
+    "dateEnd": "2018-07-16",
+    "datesCertain": false,
     "type": "other",
     "desc": "The nationally recognized and award-winning summer family festival is in Kent, just south of Seattle. The street fair alone is huge – over 600 vendors from around the coutry! Other main events include the farmers market, fine crafts market, Dragon Boat Races, a soccer tournament, 5K fun run, and more!"
   },
@@ -473,8 +473,8 @@
         "lat": 47.097281,
         "lon": -122.203913
       },
-    "dateStart": "2017-10-08",
-    "dateEnd": "2017-10-08",
+    "dateStart": "2018-10-08",
+    "dateEnd": "2018-10-08",
     "datesCertain": false,
     "type": "fruit",
     "desc": "Designed primarily as a food festival featuring items made with pumpkin ingredients, we'll also celebrate agriculture, music, and lots of pumpkins! Hayrides, pumpkin carving contests and Pumpkins Pals on Parade gives the children a place to show off their favorite pumpkin costume. Musical entertainment is scheduled throughout the day. This event will take you back to the good ol' days of fun, family-oriented entertainment."
@@ -489,9 +489,9 @@
         "lat": 47.452316,
         "lon": -122.460433
       },
-    "dateStart": "2017-07-21",
-    "dateEnd": "2017-07-23",
-    "datesCertain": true,
+    "dateStart": "2018-07-21",
+    "dateEnd": "2018-07-23",
+    "datesCertain": false,
     "type": "fruit",
     "desc": "There is something for all ages and interests during the fun-filled, busy weekend!  A grand-parade, classic car show and parade, several music stages, vendor booths, alternative carnival, local artists, and street dances are all part of the fun.  Toss in pancake breakfasts, a rocking beer garden, a fun run, the firefighter's challenge, the Miss Lucy Dinner, and loads of children's activities. You will have something to do morning til night!"
   },
@@ -505,9 +505,9 @@
         "lat": 48.419387,
         "lon": -122.343712
       },
-    "dateStart": "2017-09-17",
-    "dateEnd": "2017-09-17",
-    "datesCertain": true,
+    "dateStart": "2018-09-09",
+    "dateEnd": "2018-09-09",
+    "datesCertain": false,
     "type": "seafood",
     "desc": "Established in 2012, the Skagit River Salmon Festival is a 501(c)(3) nonprofit organization, whose purpose is to inspire conservation of the Skagit watershed’s incredible resources through a community celebration showcasing the Skagit River, its rich history, and vast natural and cultural resources. "
   },
@@ -521,9 +521,9 @@
         "lat": 47.734414,
         "lon": -122.646110
       },
-    "dateStart": "2017-05-19",
-    "dateEnd": "2017-05-21",
-    "datesCertain": true,
+    "dateStart": "2018-05-19",
+    "dateEnd": "2018-05-21",
+    "datesCertain": false,
     "type": "cultural",
     "desc": "Poulsbo’s Viking Fest is a celebration of Norway’s Constitution Day of May 17 (in Norwegian, “Syttende mai”). In Norway, it is a festival of flags and colorful processions, where children walk to the music of marching bands. Traditional Norwegian costumes are a prominent and common part of the celebrations. The festivities last from early morning to late at night. Viking Fest also features a donut eating contest and a lutefisk eating contest!"
   },
@@ -537,9 +537,9 @@
         "lat": 47.661291,
         "lon": -122.313126
       },
-    "dateStart": "2017-05-20",
-    "dateEnd": "2017-05-21",
-    "datesCertain": true,
+    "dateStart": "2018-05-20",
+    "dateEnd": "2018-05-21",
+    "datesCertain": false,
     "type": "general",
     "desc": "The U District StreetFair is the longest running festival of its kind in the nation. In 1970, community leaders established the StreetFair to heal our community after protests, street riots, and violence disrupted the community. Originally a blanket-vending event with lots of free live music, the U District StreetFair has developed into a regional event that features products that are hand-made by individual artists and craftsmen in the USA. In celebration of the international flavor of our community, we invite food vendors to participate along with our many local restaurants to supply an around-the-world food experience."
   },
@@ -553,9 +553,9 @@
         "lat": 46.143022,
         "lon": -122.939523
       },
-    "dateStart": "2017-08-19",
-    "dateEnd": "2017-08-19",
-    "datesCertain": true,
+    "dateStart": "2018-08-19",
+    "dateEnd": "2018-08-19",
+    "datesCertain": false,
     "type": "animal",
     "desc": "The Longview Squirrel Fest is a one-day festival in honor or our furry friends. A wide range of vendors and entertainment will be present to make the day as fun and active, or relaxing as you would want it. The kids will enjoy fun things like a tight rope, juggling, diablo, flower-sticks, pole balance, walking globe, stilts, Poi balls, unicycle, plate spin and much more!!! Everyone can satisfy their craving for pizza, hot dogs and cotton candy, clowns, tee-shirt cannons, demonstrations, arts and crafts, and even giant squirrels."
   },
@@ -569,9 +569,9 @@
         "lat": 48.419452,
         "lon": -122.337825
       },
-    "dateStart": "2017-04-21",
-    "dateEnd": "2017-04-23",
-    "datesCertain": true,
+    "dateStart": "2018-04-21",
+    "dateEnd": "2018-04-23",
+    "datesCertain": false,
     "type": "flower",
     "desc": "This annual event is part of the month long Tulip Festival. The Street Fair runs Friday through Sunday, attracting vendors, artists, crafts people and visitors far and wide."
   },
@@ -585,25 +585,25 @@
         "lat": 47.937155,
         "lon": -119.018571
       },
-    "dateStart": "2017-05-12",
-    "dateEnd": "2017-05-14",
-    "datesCertain": true,
+    "dateStart": "2018-05-12",
+    "dateEnd": "2018-05-14",
+    "datesCertain": false,
     "type": "other",
     "desc": "This festival is a hometown favorite and draws people from the Grand Coulee Dam Area and the surrounding towns as well. It is a popular event for former residents of the area to return to year after year. The festival is held annually on Mother's Day weekend in beautiful North Dam Park (between Grand Coulee and Electric City). Activities for the weekend include a carnival, two Pro-West Rodeos, a Color Run, a parade down main street, arts and crafts vendors, food vendors, a beer garden, and a prize button raffle drawing with grand prizes."
   },
   {
     "name": "Bigfoot Bash at Logtoberfest",
     "eventId": "038",
-    "url": "http://skamaniawacoc.weblinkconnect.com/events/Bigfoot-Bash-at-Logtoberfest-3110/details",
+    "url": "https://www.facebook.com/bigfootbashlogtoberfest/",
     "city": "Carson, WA",
     "state": "WA",
     "coords": {
         "lat": 45.714128,
         "lon": -121.769325
       },
-    "dateStart": "2017-10-07",
-    "dateEnd": "2017-10-07",
-    "datesCertain": true,
+    "dateStart": "2018-10-07",
+    "dateEnd": "2018-10-07",
+    "datesCertain": false,
     "type": "other",
     "desc": "Celebrating the culture of Carson - Sasquatch and logging.  This family friendly event includes live Country music, sasquatch stories, regional craft beer, wine and cider, local food and craft vendors, logging equipment demonstrations and more!  Free admission. "
   },
@@ -617,16 +617,16 @@
         "lat": 45.382771,
         "lon": -122.761898
       },
-    "dateStart": "2017-10-21",
-    "dateEnd": "2017-10-21",
-    "datesCertain": true,
+    "dateStart": "2018-10-21",
+    "dateEnd": "2018-10-21",
+    "datesCertain": false,
     "type": "fruit",
     "desc": "If you’ve never been to the West Coast Giant Pumpkin Regatta odds are you’ve never seen anyone sit inside a giant pumpkin let alone race one across a lake dressed as a superhero or the tooth fairy. the award-winning West Coast Giant Pumpkin Regatta has become Oregon's best October event. Spectators come from not only  the Pacific Northwest but also from all over the United States and Canada. Admission to the festival is free as are most of the activities. Food and souvenirs will be available for purchase."
   },
   {
     "name": "Mushroom Festival",
     "eventId": "040",
-    "url": "http://www.mountpisgaharboretum.com/festivals-events/2016-mushroom-festival/",
+    "url": "http://www.mountpisgaharboretum.com/festivals-events/2017-mushroom-festival/",
     "city": "Eugene, OR",
     "state": "OR",
     "coords": {
