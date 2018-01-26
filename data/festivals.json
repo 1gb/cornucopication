@@ -89,9 +89,9 @@
         "lat": 47.533874,
         "lon": -122.036310
       },
-    "dateStart": "2018-10-01",
-    "dateEnd": "2018-10-02",
-    "datesCertain": false,
+    "dateStart": "2018-10-06",
+    "dateEnd": "2018-10-07",
+    "datesCertain": true,
     "type": "seafood",
     "desc": "The Issaquah Salmon Days is a two-day award-winning festival held in Issaquah, Washington, United States, held from 10am to 6pm on both Saturday and Sunday of the first full weekend of October."
   },
@@ -185,9 +185,9 @@
         "lat": 47.044947,
         "lon": -122.763108
       },
-    "dateStart": "2017-07-29",
-    "dateEnd": "2017-07-30",
-    "datesCertain": false,
+    "dateStart": "2017-07-28",
+    "dateEnd": "2017-07-29",
+    "datesCertain": true,
     "type": "vegetable",
     "desc": "Since 2008, the Pacific Northwest Mushroom Festival has been a Rotary and community event that raises money for charity. The purpose and mission of the festival is to promote the mushroom, educate consumers about the health benefits of mushrooms and to promote tourism in the Lacey, Washington and Thurston County area, all while financially supporting the many charitable activities of the Hawks Prairie Rotary club."
   },
@@ -249,9 +249,9 @@
         "lat": 46.4885498,
         "lon": -124.0355898
       },
-    "dateStart": "2018-06-17",
-    "dateEnd": "2018-06-18",
-    "datesCertain": false,
+    "dateStart": "2018-06-16",
+    "dateEnd": "2018-06-17",
+    "datesCertain": true,
     "type": "vegetable",
     "desc": "Celebrate the passion for this exalted bulb with the faithful throngs who make their annual pilgrimage to the NW Garlic Festival which is held each June in the seaside community of Ocean Park, Washington, located on the Long Beach Peninsula. This GARLIC Olympics of Gastronomy is not held for the region's GARLIC growing ability. This Festival was born out of love of great, GARLIC laden cuisine!"
   },
@@ -361,9 +361,9 @@
         "lat": 48.508755,
         "lon": -123.099144
       },
-    "dateStart": "2018-07-15",
-    "dateEnd": "2018-07-16",
-    "datesCertain": false,
+    "dateStart": "2018-07-21",
+    "dateEnd": "2018-07-22",
+    "datesCertain": true,
     "type": "flower",
     "desc": "The annual San Juan Island Lavender Festival, sponsored by and hosted at Pelindaba Lavender Farm the third week of every July. It’s free, fragrant and colorful (well, purple, anyway). Two days of all things lavender: tours of organic fields, drying barn and distillery, commercial kitchen and bakery, and the production center where over 240 products are handcrafted; craft workshops, cooking demos, self-harvesting, picnics in the lavender fields, local music, etc. Lavender fun for the whole family. "
   },
@@ -377,9 +377,9 @@
         "lat": 48.475209,
         "lon": -122.329046
       },
-    "dateStart": "2018-06-16",
-    "dateEnd": "2018-06-18",
-    "datesCertain": false,
+    "dateStart": "2018-06-15",
+    "dateEnd": "2018-06-17",
+    "datesCertain": true,
     "type": "fruit",
     "desc": "On the third weekend in June, Burlington will explode into a delicious and exciting place to be. Fresh local strawberry shortcake, spectacular fireworks show, fabulous parades, Kiwanis Salmon BBQ, entertainment stage with live music, nostalgic Berry Cool Car Show and more!"
   },
@@ -393,9 +393,9 @@
         "lat": 48.051809,
         "lon": -122.173150
       },
-    "dateStart": "2018-06-10",
-    "dateEnd": "2018-06-18",
-    "datesCertain": false,
+    "dateStart": "2018-06-09",
+    "dateEnd": "2018-06-17",
+    "datesCertain": true,
     "type": "fruit",
     "desc": "Endless fun and entertainment painting the town red - red with strawberries, that is - for this annual celebration of the ripe, red berry that earned Marysville the moniker of The Strawberry City."
   },
@@ -441,9 +441,9 @@
         "lat": 47.335971,
         "lon": -118.690442
       },
-    "dateStart": "2018-09-15",
-    "dateEnd": "2018-09-17",
-    "datesCertain": false,
+    "dateStart": "2018-09-13",
+    "dateEnd": "2018-09-16",
+    "datesCertain": true,
     "type": "other",
     "desc": "German music plays its way into your ears, sausage and strudel tease your appetite, and the fun, excitement, and friendliness capture your heart. This four day event is more than just a festival, it's an experience! Every third full weekend in September, the small community of Odessa attracts thousands of visitors and adventurers to its famous Deutschesfest. Sporting an authentic local German Band - The Oom Pas & Mas, German Food, Crafts, and many exciting events, Odessa has made a name for itself by taking pride in its German Heritage. All the preparation for Deutschesfest is done by volunteers throughout the town."
   },
@@ -457,9 +457,9 @@
         "lat": 47.386601,
         "lon": -122.237388
       },
-    "dateStart": "2018-07-14",
-    "dateEnd": "2018-07-16",
-    "datesCertain": false,
+    "dateStart": "2018-07-13",
+    "dateEnd": "2018-07-15",
+    "datesCertain": true,
     "type": "other",
     "desc": "The nationally recognized and award-winning summer family festival is in Kent, just south of Seattle. The street fair alone is huge – over 600 vendors from around the coutry! Other main events include the farmers market, fine crafts market, Dragon Boat Races, a soccer tournament, 5K fun run, and more!"
   },
@@ -505,9 +505,9 @@
         "lat": 48.419387,
         "lon": -122.343712
       },
-    "dateStart": "2018-09-09",
-    "dateEnd": "2018-09-09",
-    "datesCertain": false,
+    "dateStart": "2018-09-08",
+    "dateEnd": "2018-09-08",
+    "datesCertain": true,
     "type": "seafood",
     "desc": "Established in 2012, the Skagit River Salmon Festival is a 501(c)(3) nonprofit organization, whose purpose is to inspire conservation of the Skagit watershed’s incredible resources through a community celebration showcasing the Skagit River, its rich history, and vast natural and cultural resources. "
   },
@@ -521,9 +521,9 @@
         "lat": 47.734414,
         "lon": -122.646110
       },
-    "dateStart": "2018-05-19",
-    "dateEnd": "2018-05-21",
-    "datesCertain": false,
+    "dateStart": "2018-05-18",
+    "dateEnd": "2018-05-20",
+    "datesCertain": true,
     "type": "cultural",
     "desc": "Poulsbo’s Viking Fest is a celebration of Norway’s Constitution Day of May 17 (in Norwegian, “Syttende mai”). In Norway, it is a festival of flags and colorful processions, where children walk to the music of marching bands. Traditional Norwegian costumes are a prominent and common part of the celebrations. The festivities last from early morning to late at night. Viking Fest also features a donut eating contest and a lutefisk eating contest!"
   },
@@ -537,9 +537,9 @@
         "lat": 47.661291,
         "lon": -122.313126
       },
-    "dateStart": "2018-05-20",
-    "dateEnd": "2018-05-21",
-    "datesCertain": false,
+    "dateStart": "2018-05-19",
+    "dateEnd": "2018-05-20",
+    "datesCertain": true,
     "type": "general",
     "desc": "The U District StreetFair is the longest running festival of its kind in the nation. In 1970, community leaders established the StreetFair to heal our community after protests, street riots, and violence disrupted the community. Originally a blanket-vending event with lots of free live music, the U District StreetFair has developed into a regional event that features products that are hand-made by individual artists and craftsmen in the USA. In celebration of the international flavor of our community, we invite food vendors to participate along with our many local restaurants to supply an around-the-world food experience."
   },
@@ -553,25 +553,25 @@
         "lat": 46.143022,
         "lon": -122.939523
       },
-    "dateStart": "2018-08-19",
-    "dateEnd": "2018-08-19",
-    "datesCertain": false,
+    "dateStart": "2018-08-18",
+    "dateEnd": "2018-08-18",
+    "datesCertain": true,
     "type": "animal",
     "desc": "The Longview Squirrel Fest is a one-day festival in honor or our furry friends. A wide range of vendors and entertainment will be present to make the day as fun and active, or relaxing as you would want it. The kids will enjoy fun things like a tight rope, juggling, diablo, flower-sticks, pole balance, walking globe, stilts, Poi balls, unicycle, plate spin and much more!!! Everyone can satisfy their craving for pizza, hot dogs and cotton candy, clowns, tee-shirt cannons, demonstrations, arts and crafts, and even giant squirrels."
   },
   {
     "name": "Mount Vernon Tulip Festival Street Fair",
     "eventId": "036",
-    "url": "https://www.mountvernondowntown.org/events/tulipfest.html",
+    "url": "http://www.mountvernondowntown.org/event/tulip-festival-street-fair/",
     "city": "Mount Vernon, WA",
     "state": "WA",
     "coords": {
         "lat": 48.419452,
         "lon": -122.337825
       },
-    "dateStart": "2018-04-21",
-    "dateEnd": "2018-04-23",
-    "datesCertain": false,
+    "dateStart": "2018-04-20",
+    "dateEnd": "2018-04-22",
+    "datesCertain": true,
     "type": "flower",
     "desc": "This annual event is part of the month long Tulip Festival. The Street Fair runs Friday through Sunday, attracting vendors, artists, crafts people and visitors far and wide."
   },
@@ -585,9 +585,9 @@
         "lat": 47.937155,
         "lon": -119.018571
       },
-    "dateStart": "2018-05-12",
-    "dateEnd": "2018-05-14",
-    "datesCertain": false,
+    "dateStart": "2018-05-11",
+    "dateEnd": "2018-05-13",
+    "datesCertain": true,
     "type": "other",
     "desc": "This festival is a hometown favorite and draws people from the Grand Coulee Dam Area and the surrounding towns as well. It is a popular event for former residents of the area to return to year after year. The festival is held annually on Mother's Day weekend in beautiful North Dam Park (between Grand Coulee and Electric City). Activities for the weekend include a carnival, two Pro-West Rodeos, a Color Run, a parade down main street, arts and crafts vendors, food vendors, a beer garden, and a prize button raffle drawing with grand prizes."
   },
@@ -638,5 +638,21 @@
     "datesCertain": true,
     "type": "vegetable",
     "desc": "The Mushroom Festival is a family-friendly all-day event with something for everyone to enjoy. Features: A huge mushroom exhibit where you can learn about over 300 local species, live music on our stage from 10am – 5pm, hay rides and guided nature walks around our beautiful site, a kids booth with face painting and nature crafts for children, culinary demonstrations featuring delicious mushroom dishes, the Scarecrow Contest where you can vote for your favorites in several categories. In addition, the festival brings in dozens of booths and vendors for your enjoyment. They feature food and drink, arts and crafts, mushroom vendors, a variety of plant sellers, and local non-profits that support nature education and habitat restoration."
+  },
+  {
+    "name": "SalmonFest Seattle",
+    "eventId": "041",
+    "url": "https://salmonfestseattle.com/",
+    "city": "Seattle, WA",
+    "state": "WA",
+    "coords": {
+        "lat": 47.720332,
+        "lon": -122.298022
+      },
+    "dateStart": "2018-08-03",
+    "dateEnd": "2018-08-05",
+    "datesCertain": false,
+    "type": "seafood",
+    "desc": "Previously the Lake City Pioneer Days, SalmonFest Seattle features a salmon bake, music, vendors, a beer garden, and a car show."
   }
 ]
