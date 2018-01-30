@@ -654,5 +654,37 @@
     "datesCertain": false,
     "type": "seafood",
     "desc": "Previously the Lake City Pioneer Days, SalmonFest Seattle features a salmon bake, music, vendors, a beer garden, and a car show."
+  },
+  {
+    "name": "Ballard Seafood Fest",
+    "eventId": "042",
+    "url": "https://seafoodfest.org/",
+    "city": "Seattle, WA",
+    "state": "WA",
+    "coords": {
+        "lat": 47.668737,
+        "lon": -122.384784
+      },
+    "dateStart": "2018-07-13",
+    "dateEnd": "2018-07-15",
+    "datesCertain": true,
+    "type": "seafood",
+    "desc": "What started as a two-hour dinner in 1971 is now an iconic two+ day event that draws over 60,000 people. A music stage featuring popular local bands, a family entertainment stage, a beer garden, and arts and crafts vendors."
+  },
+  {
+    "name": "Washington Asparagus Festival",
+    "eventId": "043",
+    "url": "http://www.waasparagus.com/marketing---promotions.html",
+    "city": "Pasco, WA",
+    "state": "WA",
+    "coords": {
+        "lat": 46.244972,
+        "lon": -119.034722
+      },
+    "dateStart": "2018-05-12",
+    "dateEnd": "2018-05-12",
+    "datesCertain": true,
+    "type": "vegetable",
+    "desc": "The asparagus festival at Middleton Farms in Pasco, WA features field tours, asparagus samples, and food vendors with items such as asparagus ice cream, deep fried asparagus, and pickled asparagus."
   }
 ]
