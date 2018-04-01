@@ -9,9 +9,9 @@
         "lat": 46.349134,
         "lon": -124.0567037
       },
-    "dateStart": "2018-04-29",
-    "dateEnd": "2018-04-30",
-    "datesCertain": false,
+    "dateStart": "2018-04-21",
+    "dateEnd": "2018-04-21",
+    "datesCertain": true,
     "type": "seafood",
     "desc": "The event that helped put the Long Beach Peninsula on the map in the 1940s features free razor clam digging lessons, contests, music, an annual chowder cook off and a giant clam fry."
   },
@@ -66,16 +66,16 @@
   {
     "name": "Northwest Raspberry Festival",
     "eventId": "005",
-    "url": "http://lynden.org/northwest-raspberry-festival/",
+    "url": "https://www.facebook.com/events/875215769310346/",
     "city": "Lynden, WA",
     "state": "WA",
     "coords": {
         "lat": 48.9427005,
         "lon": -122.4564467
       },
-    "dateStart": "2018-07-14",
-    "dateEnd": "2018-07-15",
-    "datesCertain": false,
+    "dateStart": "2018-07-20",
+    "dateEnd": "2018-07-21",
+    "datesCertain": true,
     "type": "fruit",
     "desc": "Come join the Whatcom County community is celebrating and enjoying the greatest raspberry producing region in the world! We are sure you will have a “berry” good time!"
   },
@@ -265,25 +265,25 @@
         "lat": 46.068626,
         "lon": -118.336651
       },
-    "dateStart": "2018-06-17",
-    "dateEnd": "2018-06-18",
-    "datesCertain": false,
+    "dateStart": "2018-07-21",
+    "dateEnd": "2018-07-21",
+    "datesCertain": true,
     "type": "vegetable",
     "desc": "When a French soldier brought sweet onion seeds to Walla Walla in the late 1800s, he discovered that this valley’s abundance of water and rich vegetation was the perfect environment for cultivating this crop.  Ever since then, sweet onions have been produced here as a specialty vegetable crop, loved by both locals and visitors alike.  The annual Walla Walla Sweet Onion Festival honors this significant crop through music, games, foods, and much more!  Discover everything there is to do during this exciting weekend and start making your plans to attend today!"
   },
   {
-    "name": "Chehalis Garlic Fest",
+    "name": "Washington State Garlic Fest",
     "eventId": "018",
-    "url": "http://www.chehalisgarlicfest.com/",
+    "url": "http://wastategarlicfest.com/",
     "city": "Chehalis, WA",
     "state": "WA",
     "coords": {
         "lat": 46.6919535,
         "lon": -122.9581764
       },
-    "dateStart": "2018-08-25",
-    "dateEnd": "2018-08-27",
-    "datesCertain": false,
+    "dateStart": "2018-08-24",
+    "dateEnd": "2018-08-26",
+    "datesCertain": true,
     "type": "vegetable",
     "desc": "Garlic Themed Cuisine, Artisan & Craft Vendors, Kids Activities, Chef Demonstrations"
   },
@@ -297,9 +297,9 @@
         "lat": 46.529421,
         "lon": -122.485441
       },
-    "dateStart": "2018-08-04",
-    "dateEnd": "2018-08-06",
-    "datesCertain": false,
+    "dateStart": "2018-08-03",
+    "dateEnd": "2018-08-05",
+    "datesCertain": true,
     "type": "fruit",
     "desc": "The Mossyrock Blueberry Festival is a community-led event coordinated by the Mossyrock Area Action League (MAAL), a grass roots, 501(c)3 non-profit organization working on community asset building, economic development, and poverty reduction in East Lewis County, Washington."
   },
@@ -402,16 +402,16 @@
   {
     "name": "Burien Wild Strawberry Festival",
     "eventId": "027",
-    "url": "https://burienwa.gov/index.aspx?NID=773",
+    "url": "http://www.discoverburien.org/events/event/wild-strawberry-festival/",
     "city": "Burien, WA",
     "state": "WA",
     "coords": {
         "lat": 47.466771,
         "lon": -122.351290
       },
-    "dateStart": "2018-06-17",
-    "dateEnd": "2018-06-18",
-    "datesCertain": false,
+    "dateStart": "2018-06-16",
+    "dateEnd": "2018-06-16",
+    "datesCertain": true,
     "type": "fruit",
     "desc": "Whether you are new to the area or a long time resident, the Wild Strawberry Festival is a tradition like no other. A family friendly annual event with music, games and activities for the kids, artisan craft vendors and the center piece of the event delicious strawberry shortcake. There is so much to see and do all weekend."
   },
@@ -489,9 +489,9 @@
         "lat": 47.452316,
         "lon": -122.460433
       },
-    "dateStart": "2018-07-21",
-    "dateEnd": "2018-07-23",
-    "datesCertain": false,
+    "dateStart": "2018-07-20",
+    "dateEnd": "2018-07-22",
+    "datesCertain": true,
     "type": "fruit",
     "desc": "There is something for all ages and interests during the fun-filled, busy weekend!  A grand-parade, classic car show and parade, several music stages, vendor booths, alternative carnival, local artists, and street dances are all part of the fun.  Toss in pancake breakfasts, a rocking beer garden, a fun run, the firefighter's challenge, the Miss Lucy Dinner, and loads of children's activities. You will have something to do morning til night!"
   },
