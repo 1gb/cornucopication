@@ -1,3 +1,6 @@
+// TODO: add map to description
+// TODO: If within 3 months prior to current day, default to unverified
+
 
 $(document).ready(function() {
 
@@ -128,7 +131,10 @@ $(document).ready(function() {
           '<li class="item collapsed" data-toggle="collapse" data-target="#' + element.eventId + '">' +
             '<div class="festival-name">' + downIcon + element.name + '</div>' +
             '<div class="entry">' +
-              '<span class="date">' + element.dateStart + ' - ' + element.dateEnd + ' ' + (element.datesCertain === true ? datesCertain : datesUncertain) + '</span> • ' + element.city + calendar +
+              '<span class="date">' + 
+              // If the dateStart and dateEnd is the same, just list one and not both
+              (element.dateStart === element.dateEnd ? element.dateStart + ' ' : element.dateStart + ' - ' + element.dateEnd + ' ') +
+              (element.datesCertain === true ? datesCertain : datesUncertain) + '</span> • ' + element.city + calendar +
               '<div id="' + element.eventId + '" class="single-event collapse">' + element.desc + eventUrl + '</div>' +
             '</div>' +
           '</li>');
@@ -137,7 +143,9 @@ $(document).ready(function() {
           '<li class="item collapsed" data-toggle="collapse" data-target="#' + element.eventId + '">' +
             '<div class="festival-name">' + downIcon + element.name + '</div>' +
             '<div class="entry">' +
-              '<span class="date">' + element.dateStart + ' - ' + element.dateEnd + ' ' + (element.datesCertain === true ? datesCertain : datesUncertain) + '</span> • ' + element.city + calendar +
+              '<span class="date">' + 
+              (element.dateStart === element.dateEnd ? element.dateStart + ' ' : element.dateStart + ' - ' + element.dateEnd + ' ') + 
+              (element.datesCertain === true ? datesCertain : datesUncertain) + '</span> • ' + element.city + calendar +
               '<div id="' + element.eventId + '" class="single-event collapse">' + element.desc + eventUrl + '</div>' +
             '</div>' +
           '</li>');
